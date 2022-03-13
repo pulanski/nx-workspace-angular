@@ -30,3 +30,23 @@ ion-card {
     height: 100%;
   }
 }
+
+ion-card-header {
+  margin-top: -54px;
+  ion-avatar {
+    width: 72px;
+    height: 72px;
+    margin: auto;
+    border: 2px solid var(--ion-color-primary-contrast);
+    box-shadow: inset 0px 0px 0px 10px var(--ion-color-primary-contrast);
+  }
+}
+
+ion-card-content div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.connections {
+  margin-top: 8px;
+}

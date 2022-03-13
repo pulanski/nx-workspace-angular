@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { ModalController } from '@ionic/angular';
 
 @Component({
   selector: 'app-modal',
@@ -6,9 +8,30 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./modal.component.scss'],
 })
 export class ModalComponent implements OnInit {
+  @ViewChild('form') form: NgForm;
 
-  constructor() { }
+  constructor(public modalController: ModalController) {}
 
   ngOnInit() {}
 
+  onDismiss() {
+    this.modalController.dismiss(null, 'dismiss');
+  }
+
+  // TODO look at this method
+  onPost() {
+    if (!this.form.valid) {
+      return;
+    }
+    const body = this.form.value.body;
+    this.modalController.dismiss(
+      {
+        post: {
+          body,
+          createdAt: new Date(),
+        },
+      },
+      'post'
+    );
+  }
 }

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
@@ -9,9 +9,18 @@ import { HeaderComponent } from './components/header/header.component';
 import { ProfileSummaryComponent } from './components/profile-summary/profile-summary.component';
 import { StartPostComponent } from './components/start-post/start-post.component';
 import { AdvertisingComponent } from './components/advertising/advertising.component';
+import { ModalComponent } from './components/start-post/modal/modal.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule],
-  declarations: [HomePage, HeaderComponent, ProfileSummaryComponent, StartPostComponent, AdvertisingComponent],
+  declarations: [
+    HomePage,
+    HeaderComponent,
+    ProfileSummaryComponent,
+    StartPostComponent,
+    AdvertisingComponent,
+    ModalComponent,
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class HomePageModule {}
