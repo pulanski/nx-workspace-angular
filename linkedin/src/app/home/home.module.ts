@@ -10,9 +10,12 @@ import { ProfileSummaryComponent } from './components/profile-summary/profile-su
 import { StartPostComponent } from './components/start-post/start-post.component';
 import { AdvertisingComponent } from './components/advertising/advertising.component';
 import { ModalComponent } from './components/start-post/modal/modal.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AllPostsComponent } from './components/all-posts/all-posts.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 @NgModule({
-  imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule],
+  imports: [CommonModule, FormsModule, IonicModule, HomePageRoutingModule, FontAwesomeModule],
   declarations: [
     HomePage,
     HeaderComponent,
@@ -20,6 +23,8 @@ import { ModalComponent } from './components/start-post/modal/modal.component';
     StartPostComponent,
     AdvertisingComponent,
     ModalComponent,
+    AllPostsComponent,
+    TabsComponent,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

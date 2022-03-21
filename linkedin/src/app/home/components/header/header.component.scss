@@ -4,8 +4,13 @@
   margin: auto;
 }
 
+#linkedin-button {
+  width: 60px;
+  height: 60px;
+}
+
 .linkedin-logo {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 ion-col div,
@@ -17,7 +22,7 @@ ion-badge {
 ion-searchbar {
   --box-shadow: none;
   transform: scale(0.8);
-  margin-left: -40px;
+  margin-left: -30px;
 }
 
 ion-icon {
@@ -33,6 +38,7 @@ ion-avatar {
 ion-col {
   width: 80px !important;
   text-align: center;
+  cursor: pointer;
 }
 
 ion-header {

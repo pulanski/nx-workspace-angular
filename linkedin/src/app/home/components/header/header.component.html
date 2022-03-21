@@ -2,29 +2,15 @@
   <ion-toolbar>
     <div class="toolbar-wrapper">
       <ion-buttons slot="start" class="ion-no-padding">
-        <ion-button style="cursor: pointer" [routerLink]="['/home']">
-          <ion-icon
-            color="primary"
-            class="linkedin-logo"
-            name="logo-linkedin"
-          ></ion-icon>
+        <ion-button id="linkedin-button" style="cursor: pointer" [routerLink]="['/home']">
+          <ion-icon color="primary" class="linkedin-logo" name="logo-linkedin"></ion-icon>
         </ion-button>
-        <ion-searchbar
-          color="tertiary"
-          class="ion-hide-lg-down"
-          placeholder="Search"
-        >
-        </ion-searchbar>
+        <ion-searchbar color="tertiary" class="ion-hide-lg-down" placeholder="Search"> </ion-searchbar>
       </ion-buttons>
 
-      <ion-grid>
+      <ion-grid style="cursor: pointer">
         <ion-row class="ion-justify-content-end">
-          <ion-col
-            style="cursor: pointer"
-            [routerLink]="['/home']"
-            class="ion-hide-md-down"
-            size="auto"
-          >
+          <ion-col [routerLink]="['/home']" class="ion-hide-md-down" size="auto">
             <ion-icon name="home"></ion-icon>
             <div>Home</div>
           </ion-col>
@@ -48,12 +34,7 @@
             <ion-icon name="briefcase"></ion-icon>
             <div>Jobs</div>
           </ion-col>
-          <ion-col
-            style="cursor: pointer"
-            [routerLink]="['/home/chat/connections']"
-            class="ion-hide-md-down"
-            size="auto"
-          >
+          <ion-col [routerLink]="['/home/chat/connections']" class="ion-hide-md-down" size="auto">
             <ion-icon name="chatbox-ellipses"></ion-icon>
             <div>Messaging</div>
           </ion-col>
@@ -74,11 +55,7 @@
             </ion-badge>
             <div>Notifications</div>
           </ion-col>
-          <ion-col
-            class="popover-menu"
-            (click)="presentPopover($event)"
-            size="auto"
-          >
+          <ion-col class="popover-menu" (click)="presentPopover($event)" size="auto">
             <ion-avatar>
               <!--
                 *ngIf="userFullImagePath"
@@ -86,18 +63,9 @@
                -->
               <ion-img src="../../../../assets/profile-pic.jpg"></ion-img>
             </ion-avatar>
-            <div
-              style="
-                display: flex;
-                justify-content: center;
-                align-items: center;
-              "
-            >
+            <div style="display: flex; justify-content: center; align-items: center">
               Me
-              <ion-icon
-                style="font-size: 16px"
-                name="caret-down-outline"
-              ></ion-icon>
+              <ion-icon style="font-size: 16px" name="caret-down-outline"></ion-icon>
             </div>
           </ion-col>
         </ion-row>
