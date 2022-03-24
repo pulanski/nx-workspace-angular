@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (entityLogo) {
                 var url = entityLogo.getAttribute('data-src');
                 // Dark mode + logo
-                let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
                 if (isDarkMode && url.indexOf('compodoc') !== -1) {
                     url = 'images/compodoc-vectorise-inverted.png';
                 }
