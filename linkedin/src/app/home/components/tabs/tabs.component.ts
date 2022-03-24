@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
-import { ModalComponent } from '../start-post/modal/modal.component';
+import { ModalComponent } from '@home/components/start-post/modal/modal.component';
 
 @Component({
   selector: 'app-tabs',

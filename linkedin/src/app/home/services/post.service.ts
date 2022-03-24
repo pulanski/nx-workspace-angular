@@ -6,7 +6,7 @@ import { Post } from '../models/Post';
 export class PostService {
   constructor(private httpClient: HttpClient) {}
 
-  getSelectedPosts(params) {
+  getSelectedPosts(params: string) {
     return this.httpClient.get<Post[]>('http://localhost:3000/api/feed' + params);
   }
 }
