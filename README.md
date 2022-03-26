@@ -1,15 +1,7 @@
-# linkedin-clone
+
+# nx-workspace
+
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -18,32 +10,31 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
+<!-- [![Contributors][contributors-shield]][contributors-url] -->
+<!-- [![Stargazers][stars-shield]][stars-url] -->
+<!-- [![Forks][forks-shield]][forks-url] -->
 
+[![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src=" https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h2 align="center">nx-workspace</h2>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Remote monorepo in which I build full stack typescript apps available for both web and mobile platforms using Nx, Ionic, Angular, RxJS, NestJS, TypeORM, and PostgreSQL
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
+<!--    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    · -->
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
@@ -57,7 +48,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-monorepo">About The Monorepo</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -80,38 +71,43 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ABOUT THE MONOREPO -->
+## About The Monorepo
 
+<!-- [Monorepo Screen Shot] is done in VSCode -->
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This monorepo serves as a single source of truth for all of the dependencies required by the apps/projects I'm currently working on building. It is designed primarily with scale and best-practices in mind such that the codebase progresses cleanly and maintains high code quality and maintainability over time. This means that if and when I want to take a step back from working on a particular project (to work on another or take a break in general), I can do so and have the ability to come back later and easily start where I left off.
 
-Here's why:
+This monorepo promotes these principles:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
 * You should implement DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+As a general note:
+* Any JS/TS developer knows the problems you encounter when you're working on multiple projects at the same time. As time goes on and the number of projects/apps you start to work on begins to grow (whether that be for learning purposes or for prototyping/production), your disk space will become more and more clogged down by various node_modules each with their unique set of dependencies. This setup eliminates that problem entirely, which is especially important for working on machines in which you are limited in storage space. It also allows you to manage the dependencies your projects rely on in one location. While this may sound intimidating at first, it is important to note that this approach has been shown to work at Google, which is said to have a monorepo containing 100s of various apps the company is currently working on.
 
-Use the `BLANK_README.md` to get started.
+If you're interested in demoing the apps housed within this monorepo, head over to the Getting Started section found below.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This monorepo contains full-stack web and mobile apps built with the following frameworks/libraries/technologies
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
+Frontend
+* [Nx](https://nx.dev/)
+* [Ionic](https://ionicframework.com/)
 * [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+
+Backend
+* [NestJS](https://nestjs.com/)
+
+ORM
+* [TypeORM](https://typeorm.io/)
+
+Database
+* [PostgreSQL](https://www.postgresql.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -120,8 +116,12 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+You can get started by cloning this repo, which can be done via the <a href="https://cli.github.com/"> GitHub CLI </a> by using the following command
+  ```sh
+  gh repo clone pulanski/nx-workspace
+  ```
+
+With the repository cloned to your local machine, you can demo any of the projects found inside the apps directory in the root of the monorepo. Each of these have an associated README included to help you get started on that part of the stack.
 
 ### Prerequisites
 
@@ -131,7 +131,7 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
-### Installation
+<!-- ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -149,7 +149,7 @@ _Below is an example of how you can instruct your audience on installing and set
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
@@ -222,16 +222,14 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Here is a short non-exhaustive list of some amazing resources for learning various technologies/languages/frameworks utilized within this monorepo.
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Fireship](https://www.youtube.com/c/Fireship)
+* [Ben Awad](https://www.youtube.com/c/BenAwad97)
+* [Joshua Morony](https://www.youtube.com/c/JoshuaMorony)
+* [Brandon Roberts](https://www.youtube.com/c/BrandonRobertsDev)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -239,16 +237,18 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/pulanski/nx-workspace.svg?style=for-the-badge
+[contributors-url]: https://github.com/pulanski/nx-workspace/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[forks-url]: https://github.com/pulanski/nx-workspace/network/members
+[stars-shield]: https://img.shields.io/github/stars/pulanski/nx-workspace.svg?style=for-the-badge
+[stars-url]: https://github.com/pulanski/nx-workspace/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/josh-kersey/
 [product-screenshot]: images/screenshot.png
+
+> Written with [StackEdit](https://stackedit.io/).
