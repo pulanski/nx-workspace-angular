@@ -26,7 +26,7 @@ width="100%" alt="Nx - Smart, Fast and Extensible Build System"></p>
   <h2 align="center">nx-workspace</h2>
 
   <p align="center">
-    Remote monorepo in which I build full stack typescript apps available for both web and mobile platforms using Nx, Ionic, Angular, RxJS, NestJS, TypeORM, and PostgreSQL
+    Remote monorepo in which I build full stack TypeScript apps available for both web and mobile platforms using Nx, Ionic, Angular, RxJS, NestJS, TypeORM, and PostgreSQL
 <!--  <br />    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
