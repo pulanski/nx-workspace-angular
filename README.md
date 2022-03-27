@@ -21,8 +21,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src=" https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" alt="Logo" width="120" height="120">
+  <a href="https://github.com/pulanski/nx-workspace">
+    <img src=" https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" alt="workspace logo" width="120" height="120">
   </a>
 
   <h2 align="center">nx-workspace</h2>
