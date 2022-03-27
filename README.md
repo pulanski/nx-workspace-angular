@@ -74,7 +74,9 @@ width="100%" alt="Nx - Smart, Fast and Extensible Build System"></p>
 <!-- [Monorepo Screen Shot] is done in VSCode
 [![Product Name Screen Shot][product-screenshot]](https://example.com)  -->
 
-This monorepo serves as a single source of truth for all of the dependencies required by the apps/projects I'm currently working on building. It is designed primarily with scale and best-practices in mind such that the codebase progresses cleanly and maintains both high code quality and maintainability over time. This means that if and when I want to take a step back from working on a particular project (to work on another or take a break in general), I can do so and have the ability to come back later and easily start where I left off.
+This monorepo serves as a single source of truth for all of the dependencies required by the apps/projects I'm currently working on building. It is designed primarily with scale and best-practices in mind such that the codebase progresses cleanly and maintains both high code quality and maintainability over time. This means that if and when I want to take a step back from working on a particular project (to work on another or take a break in general), I can do so and have the ability to come back later and easily start where I left off. In a way, this approach follows the core idea behind writing software with Java back in the day (i.e. write once, run anywhere).
+
+Following the core philosophy behind Nx, the apps themselves are extremely lightweight shells, with the vast majority of functionality abstracted into libraries in an attempt to promote code sharing and reuse between applications at any scale.
 
 This monorepo promotes these principles:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
@@ -90,10 +92,9 @@ If you're interested in demoing the apps housed within this monorepo, head over 
 
 ### Built With
 
-This monorepo contains full-stack web and mobile apps built with the following frameworks/libraries/technologies
+This monorepo contains full-stack web and mobile apps built with the following frameworks/libraries/technologies.
 
 Frontend
-* [Nx](https://nx.dev/)
 * [Ionic](https://ionicframework.com/)
 * [Angular](https://angular.io/)
 
@@ -108,7 +109,20 @@ Database
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Developer/Design Tools
 
+Within the monorepo is a first class suite of various tools utilized to promote Test Driven Development and to create a consistent Design System. Each of these tools, expose APIs which, in my opinion, are intuitive, simple-to-use and make the resting and design portions behind software development both easy and even  fun to do.
+
+Unit Testing
+* [Jest](https://jestjs.io/)
+
+End-to-End Testing
+* [Cypress](https://www.cypress.io/)
+
+Design System
+* [Storybook](https://storybook.js.org/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -133,10 +147,16 @@ With the repository cloned to your local machine, you can demo any of the projec
 
 ### Prerequisites
 
-Before you can begin working within the monorepo, it's important that you have the  you have <a href="https://nodejs.org/en/"> NodeJS </a> installed on your machine. With NodeJS installed, and the repo successfully cloned, you can then use the following shell command to install all of the necessary dependencies of projects housed within the repo.
+Before you can begin working within the monorepo, it's important that you have the  you have <a href="https://nodejs.org/en/"> NodeJS </a> installed on your machine. With NodeJS installed, and the repo successfully cloned, you can then use the following shell command to install all of the necessary dependencies of projects housed within the repo via the <a href="https://yarnpkg.com/">Yarn</a> package manager.
   ```sh
-  npm install
+  yarn
   ```
+ As a note:
+* Yarn is not required by any means in the development process. There are various JavaScript package managers currently available to JS/TS developers, most notably <a href="https://www.npmjs.com/">npm</a>, <a href="https://yarnpkg.com/">Yarn</a>, and <a href="https://pnpm.io/">pNPM</a> to name a few. However, I tend to go with Yarn as it provides these features out of the box.
+	-   ⬆️ Emojis
+	-   [Speed](https://yarnpkg.com/en/compare)  🏃⌁
+	-   Automatic shrinkwrap with the yarn lockfile
+	-   Security-centric design
 
 <!-- ### Installation
 
