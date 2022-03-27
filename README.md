@@ -15,15 +15,13 @@
 <!-- [![Stargazers][stars-shield]][stars-url] -->
 <!-- [![Forks][forks-shield]][forks-url] -->
 
-[![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/pulanski/nx-workspace">
-    <img src=" https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" alt="workspace logo" width="120" height="120">
-  </a>
+  <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx.png" 
+width="100%" alt="Nx - Smart, Fast and Extensible Build System"></p>
+
+[![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat-square)]() [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]() [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Issues][issues-shield]][issues-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
   <h2 align="center">nx-workspace</h2>
 
@@ -254,11 +252,11 @@ Here is a non-exhaustive list of some amazing resources for learning various tec
 [forks-url]: https://github.com/pulanski/nx-workspace/network/members
 [stars-shield]: https://img.shields.io/github/stars/pulanski/nx-workspace.svg?style=for-the-badge
 [stars-url]: https://github.com/pulanski/nx-workspace/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-url]: https://github.com/pulanski/nx-workspace/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/josh-kersey/
 [product-screenshot]: images/screenshot.png
 
