@@ -22,22 +22,21 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src=" https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" alt="Logo" width="100" height="100">
+    <img src=" https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" alt="Logo" width="120" height="120">
   </a>
 
   <h2 align="center">nx-workspace</h2>
 
   <p align="center">
     Remote monorepo in which I build full stack typescript apps available for both web and mobile platforms using Nx, Ionic, Angular, RxJS, NestJS, TypeORM, and PostgreSQL
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+<!--  <br />    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
 <!--    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     · -->
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/pulanski/nx-workspace/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/pulanski/nx-workspace/issues">Request Feature</a>
   </p>
 </div>
 
@@ -57,7 +56,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+       <!-- <li><a href="#installation">Installation</a></li> -->
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -74,10 +73,10 @@
 <!-- ABOUT THE MONOREPO -->
 ## About The Monorepo
 
-<!-- [Monorepo Screen Shot] is done in VSCode -->
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [Monorepo Screen Shot] is done in VSCode
+[![Product Name Screen Shot][product-screenshot]](https://example.com)  -->
 
-This monorepo serves as a single source of truth for all of the dependencies required by the apps/projects I'm currently working on building. It is designed primarily with scale and best-practices in mind such that the codebase progresses cleanly and maintains high code quality and maintainability over time. This means that if and when I want to take a step back from working on a particular project (to work on another or take a break in general), I can do so and have the ability to come back later and easily start where I left off.
+This monorepo serves as a single source of truth for all of the dependencies required by the apps/projects I'm currently working on building. It is designed primarily with scale and best-practices in mind such that the codebase progresses cleanly and maintains both high code quality and maintainability over time. This means that if and when I want to take a step back from working on a particular project (to work on another or take a break in general), I can do so and have the ability to come back later and easily start where I left off.
 
 This monorepo promotes these principles:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
@@ -116,19 +115,29 @@ Database
 <!-- GETTING STARTED -->
 ## Getting Started
 
-You can get started by cloning this repo, which can be done via the <a href="https://cli.github.com/"> GitHub CLI </a> by using the following command
+You can get started by cloning this repo, which can be done via the <a href="https://cli.github.com/"> GitHub CLI </a> using the following shell command.
   ```sh
   gh repo clone pulanski/nx-workspace
   ```
 
-With the repository cloned to your local machine, you can demo any of the projects found inside the apps directory in the root of the monorepo. Each of these have an associated README included to help you get started on that part of the stack.
+As a note:
+* The GitHub CLI is not required for cloning the project, however it is a tool I came across a while back and have found to be useful in my experience with open-source software development and one I see to be handy for any software developer. If you don't already have the GitHub CLI, it can be installed to your machine locally via your OS's package manager. Examples are shown below.
+	* Mac/Homebrew
+  ```sh
+  brew install gh
+  ```
+  	* Arch/Manjaro
+  ```sh
+  yay -S gh
+  ```
+  
+With the repository cloned to your local machine, you can demo any of the projects found inside the apps directory in the root of the monorepo. Each of these have an associated README included to help you better understand everything that's going on with that part of the stack.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Before you can begin working within the monorepo, it's important that you have the  you have <a href="https://nodejs.org/en/"> NodeJS </a> installed on your machine. With NodeJS installed, and the repo successfully cloned, you can then use the following shell command to install all of the necessary dependencies of projects housed within the repo.
   ```sh
-  npm install npm@latest -g
+  npm install
   ```
 
 <!-- ### Installation
@@ -153,14 +162,14 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES 
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
@@ -170,12 +179,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [x] Add Changelog
 - [x] Add back to top links
 - [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [ ]  Add Deep Learning Model built with Tensorflow (Python) to the project using the Tensorflow.js wrapper
+- [ ] Dockerize the application for deployment to either Amazon ECS or Google Cloud Run
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/pulanski/nx-workspace/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -208,12 +215,16 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-<!-- CONTACT -->
-## Contact
+<!-- CONTACT  [@your_twitter](https://twitter.com/your_username)  -->
+## Contact  📫
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+You can find/get in touch with me on these accounts!
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+[![](https://camo.githubusercontent.com/e6827ddacb39b17e677eaffdae6995da1cc09076e4d50f2b816d2758873f438c/687474703a2f2f696d672e736869656c64732e696f2f62616467652f2d4769746875622d3030303030303f7374796c653d666c6174266c6f676f3d676974687562266c6f676f436f6c6f723d464646464646)](https://github.com/pulanski/)  [![<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="docker logo" width="24">](https://camo.githubusercontent.com/7508c4b0be1529dd01cccaddf93af5f1a0e3997ad4c9f95b220ac35971fd63da/68747470733a2f2f646362616467652e76657263656c2e6170702f6170692f736869656c642f3139313733313338343834353333363537363f7374796c653d666c6174)](https://camo.githubusercontent.com/7508c4b0be1529dd01cccaddf93af5f1a0e3997ad4c9f95b220ac35971fd63da/68747470733a2f2f646362616467652e76657263656c2e6170702f6170692f736869656c642f3139313733313338343834353333363537363f7374796c653d666c6174)  [![Stack Overflow](https://camo.githubusercontent.com/2eb1cfbc7ee785ac8d3346a92d599f9a61fb0851c8734d717fca69bcdca48727/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d537461636b6f766572666c6f772d4645374131363f7374796c653d666c6174266c6f676f3d737461636b2d6f766572666c6f77266c6f676f436f6c6f723d7768697465)](https://stackoverflow.com/users/18581537/josh-kersey?tab=profile)
+
+
+
+Monorepo Link: [https://github.com/pulanski/nx-workspace](https://github.com/pulanski/nx-workspace)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -222,7 +233,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Here is a short non-exhaustive list of some amazing resources for learning various technologies/languages/frameworks utilized within this monorepo.
+Here is a non-exhaustive list of some amazing resources for learning various technologies/languages/frameworks utilized within this monorepo.
 
 * [Fireship](https://www.youtube.com/c/Fireship)
 * [Ben Awad](https://www.youtube.com/c/BenAwad97)
