@@ -499,7 +499,7 @@
   dependencies:
     nx "13.9.5"
 
-"@nrwl/devkit@13.9.5":
+"@nrwl/devkit@13.9.5", "@nrwl/devkit@^13.0.0":
   version "13.9.5"
   resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-13.9.5.tgz#75bc685f9866755252716dccfede9aba037c2a2a"
   integrity sha512-7C79pueB1y0WCQa5iGoMID+lvXOvj66lPqeN7a/H6E7VHWyjmCqfo/Sf53KWKIQn9qJwzcp4MFyE/2U+ey9T5A==
@@ -588,6 +588,13 @@
     tslib "^2.3.0"
     yargs "15.4.1"
     yargs-parser "20.0.0"
+
+"@nxtend/ionic-angular@13.1.0":
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/@nxtend/ionic-angular/-/ionic-angular-13.1.0.tgz#d31e80ad2f9e61b3edac74f0d1a595d683e0341d"
+  integrity sha512-oDrstfGi4fqBHzS4ZZT0uEzwhOQweJkzlwvKf0WLbvYAccjAayw1Rf/HG/Z/TohBG+huV5c1nwiePvL8fqNP7w==
+  dependencies:
+    "@nrwl/devkit" "^13.0.0"
 
 "@parcel/watcher@2.0.4":
   version "2.0.4"

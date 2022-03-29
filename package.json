@@ -8,7 +8,9 @@
     "test": "nx test"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@nxtend/ionic-angular": "13.1.0"
+  },
   "devDependencies": {
     "@nrwl/cli": "13.9.5",
     "@nrwl/nx-cloud": "latest",
