@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@commitlint/config-conventional'],
+  extends: ['@commitlint/config-angular'],
   rules: {
 		'body-leading-blank': [1, 'always'],
 		'body-max-line-length': [2, 'always', 100],
