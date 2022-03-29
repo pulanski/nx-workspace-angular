@@ -12,6 +12,7 @@
     "@nxtend/ionic-angular": "13.1.0"
   },
   "devDependencies": {
+    "@nrwl/angular": "^13.9.5",
     "@nrwl/cli": "13.9.5",
     "@nrwl/nest": "^13.9.5",
     "@nrwl/nx-cloud": "latest",
