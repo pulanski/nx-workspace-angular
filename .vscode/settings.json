@@ -1,4 +1,0 @@
-{
-  "vsicons.presets.nestjs": true,
-  "eslint.workingDirectories": ["linkedin", "api"]
-}
