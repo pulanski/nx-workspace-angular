@@ -773,6 +773,13 @@
     yargs "15.4.1"
     yargs-parser "20.0.0"
 
+"@nxtend/capacitor@13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@nxtend/capacitor/-/capacitor-13.0.0.tgz#614be64288a9e557e7f0ed4babfb94472148721d"
+  integrity sha512-Zax6HgLtIcdZ7WBbMKLuog0rjDRf/ZVtnmVSlUloVOejGuf4BBVfG35EQ/ccW6xb9ey7N1royTVxLmNwrdLHVw==
+  dependencies:
+    "@nrwl/devkit" "^13.0.0"
+
 "@nxtend/ionic-angular@13.1.0":
   version "13.1.0"
   resolved "https://registry.yarnpkg.com/@nxtend/ionic-angular/-/ionic-angular-13.1.0.tgz#d31e80ad2f9e61b3edac74f0d1a595d683e0341d"

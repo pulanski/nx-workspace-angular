@@ -9,6 +9,7 @@
   },
   "private": true,
   "dependencies": {
+    "@nxtend/capacitor": "13.0.0",
     "@nxtend/ionic-angular": "13.1.0"
   },
   "devDependencies": {
