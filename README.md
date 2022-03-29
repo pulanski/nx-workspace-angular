@@ -179,7 +179,7 @@ As a note:
   brew install gh
   ```
 
-      * Arch/Manjaro
+  - Arch/Manjaro
 
   ```sh
   yay -S gh
