@@ -1,0 +1,28 @@
+{
+  "root": "apps/mobile/linkedin-e2e",
+  "sourceRoot": "apps/mobile/linkedin-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/mobile/linkedin-e2e/cypress.json",
+        "devServerTarget": "mobile-linkedin:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "mobile-linkedin:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/mobile/linkedin-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["mobile-linkedin"]
+}
