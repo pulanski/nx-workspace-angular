@@ -4,7 +4,11 @@
     "api": "apps/api",
     "mobile-linkedin": "apps/mobile/linkedin",
     "mobile-linkedin-e2e": "apps/mobile/linkedin-e2e",
+    "mobile-sortir": "apps/mobile/sortir",
+    "mobile-sortir-e2e": "apps/mobile/sortir-e2e",
     "web-linkedin": "apps/web/linkedin",
-    "web-linkedin-e2e": "apps/web/linkedin-e2e"
+    "web-linkedin-e2e": "apps/web/linkedin-e2e",
+    "web-sortir": "apps/web/sortir",
+    "web-sortir-e2e": "apps/web/sortir-e2e"
   }
 }

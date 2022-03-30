@@ -1,0 +1,28 @@
+{
+  "root": "apps/mobile/sortir-e2e",
+  "sourceRoot": "apps/mobile/sortir-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/mobile/sortir-e2e/cypress.json",
+        "devServerTarget": "mobile-sortir:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "mobile-sortir:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/mobile/sortir-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["mobile-sortir"]
+}
