@@ -771,7 +771,7 @@
     tslib "^2.3.0"
     webpack-node-externals "^3.0.0"
 
-"@nrwl/devkit@13.9.5", "@nrwl/devkit@^13.0.0":
+"@nrwl/devkit@13.9.5", "@nrwl/devkit@>=12.0.0", "@nrwl/devkit@^13.0.0":
   version "13.9.5"
   resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-13.9.5.tgz#75bc685f9866755252716dccfede9aba037c2a2a"
   integrity sha512-7C79pueB1y0WCQa5iGoMID+lvXOvj66lPqeN7a/H6E7VHWyjmCqfo/Sf53KWKIQn9qJwzcp4MFyE/2U+ey9T5A==
@@ -3671,6 +3671,14 @@ nwsapi@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.0.tgz#204879a9e3d068ff2a55139c2c772780681a38b7"
   integrity sha512-h2AatdwYH+JHiZpv7pt/gSX1XoRGb7L/qSIeuqA6GwYoF9w1vP1cw42TO0aI2pNyshRK5893hNSl+1//vHK7hQ==
+
+nx-stylelint@^13.3.0:
+  version "13.3.0"
+  resolved "https://registry.yarnpkg.com/nx-stylelint/-/nx-stylelint-13.3.0.tgz#334067bc9e2b53288fa0d5657fdcbe44c3208b8e"
+  integrity sha512-NLQ0YR8XVPNjFoVkE12uH7KDirtZRaG/MXb1p+Q2m/Y55Dtr03BZv403dl0KFsHJ2gWs/Xcazd1piFjrNYV67g==
+  dependencies:
+    "@nrwl/devkit" ">=12.0.0"
+    tslib "^2.3.1"
 
 nx@13.9.5:
   version "13.9.5"
