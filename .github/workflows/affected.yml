@@ -25,5 +25,4 @@ jobs:
       - run: yarn nx affected --target=build
       - name: Test all of the tests are still passing
       - run: yarn nx affected --target=test
-
       - run: echo "🍏 This job's status is ${{ job.status }}."
