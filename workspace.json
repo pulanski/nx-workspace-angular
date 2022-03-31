@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "api": "apps/api",
+    "api-core-feature": "libs/api/core/feature",
     "mobile-linkedin": "apps/mobile/linkedin",
     "mobile-linkedin-e2e": "apps/mobile/linkedin-e2e",
     "mobile-sortir": "apps/mobile/sortir",
