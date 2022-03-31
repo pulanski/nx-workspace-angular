@@ -1,7 +1,0 @@
-{
-  "name": "sortir",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
