@@ -14,20 +14,8 @@
         "polyfills": "apps/web/sortir/src/polyfills.ts",
         "tsConfig": "apps/web/sortir/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": [
-          "apps/web/sortir/src/assets",
-          {
-            "glob": "**/*.svg",
-            "input": "node_modules/ionicons/dist/ionicons/svg",
-            "output": "./svg"
-          }
-        ],
-        "styles": [
-          "apps/web/sortir/src/styles.scss",
-          {
-            "input": "apps/web/sortir/src/theme/variables.scss"
-          }
-        ],
+        "assets": ["apps/web/sortir/src/favicon.ico", "apps/web/sortir/src/assets"],
+        "styles": ["apps/web/sortir/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -73,7 +61,10 @@
           "browserTarget": "web-sortir:build:development"
         }
       },
-      "defaultConfiguration": "development"
+      "defaultConfiguration": "development",
+      "options": {
+        "proxyConfig": "apps/web/sortir/proxy.conf.json"
+      }
     },
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
@@ -93,96 +84,6 @@
       "options": {
         "jestConfig": "apps/web/sortir/jest.config.js",
         "passWithNoTests": true
-      }
-    },
-    "cap": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "--help"
-      }
-    },
-    "add": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "add"
-      },
-      "configurations": {
-        "ios": {
-          "cmd": "add ios"
-        },
-        "android": {
-          "cmd": "add android"
-        }
-      }
-    },
-    "copy": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "copy"
-      },
-      "configurations": {
-        "ios": {
-          "cmd": "copy ios"
-        },
-        "android": {
-          "cmd": "copy android"
-        }
-      }
-    },
-    "open": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "open"
-      },
-      "configurations": {
-        "ios": {
-          "cmd": "open ios"
-        },
-        "android": {
-          "cmd": "open android"
-        }
-      }
-    },
-    "run": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "run"
-      },
-      "configurations": {
-        "ios": {
-          "cmd": "run ios"
-        },
-        "android": {
-          "cmd": "run android"
-        }
-      }
-    },
-    "sync": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "sync"
-      },
-      "configurations": {
-        "ios": {
-          "cmd": "sync ios"
-        },
-        "android": {
-          "cmd": "sync android"
-        }
-      }
-    },
-    "update": {
-      "executor": "@nxtend/capacitor:cap",
-      "options": {
-        "cmd": "update"
-      },
-      "configurations": {
-        "ios": {
-          "cmd": "update ios"
-        },
-        "android": {
-          "cmd": "update android"
-        }
       }
     }
   },
