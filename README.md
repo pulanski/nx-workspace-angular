@@ -20,7 +20,8 @@
   <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx.png" 
 width="100%" alt="Nx - Smart, Fast and Extensible Build System"></p>
 
-[![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat-square)]() [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]() [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Issues][issues-shield]][issues-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+[![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat-square)]() [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]() [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
+[![Issues][issues-shield]][issues-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
   <h2 align="center">nx-workspace</h2>
 
@@ -125,6 +126,7 @@ Frontend
 
 - [Ionic](https://ionicframework.com/)
 - [Angular](https://angular.io/)
+- [TailwindCSS](https://tailwindcss.com/)
 
 Backend
 
@@ -238,7 +240,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Add Changelog
 - [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
+- [x] Integrate CircleCI into the CI/CD pipeline
+- [ ] Configure GitHub actions for desired pipeline functionality
+- [ ] Work on abstracting most of core features and functionality into libraries taking inspiration from the high level design and architecture detailed <a href="https://gist.github.com/trungk18/7ef8766cafc05bc8fd87be22de6c5b12">here</a>
+- [ ] Look into integrating Docusaurus, and Compodoc.
 - [ ] Add Deep Learning Model built with Tensorflow (Python) to the project using the Tensorflow.js wrapper
 - [ ] Dockerize the application for deployment to either Amazon ECS or Google Cloud Run
 
