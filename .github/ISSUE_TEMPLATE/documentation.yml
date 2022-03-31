@@ -1,5 +1,5 @@
 name: 📖 Documentation
-description: Suggest an improvement for the documentation of this project
+description: Suggest an improvement for the documentation of this monorepo
 title: Content to be added or fixed
 labels: [documentation]
 body:
