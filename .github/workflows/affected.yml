@@ -1,4 +1,4 @@
-name: Runs Nx affected on GitHub's linux servers
+name: Runs Nx affected on GitHub's Ubuntu servers
 
 on:
   push:
