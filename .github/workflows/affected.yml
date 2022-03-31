@@ -1,4 +1,4 @@
-name: Runs Nx affected on GitHub's linux servers
+name: Runs Nx affected on GitHub's Ubuntu servers
 
 on:
   push:
@@ -17,10 +17,12 @@ jobs:
         uses: actions/checkout@v2
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      # - name: Install all of the dependencies in the monorepo
-      #   run: |
-      #     echo "🧶 Installing dependencies." &&
-      #     yarn
-      - name: nrwl nx
-        uses: MansaGroup/nrwl-nx-action@v2
+      - name: Install all of the dependencies in the monorepo
+        run: |
+          echo "🧶 Installing dependencies." &&
+          yarn
+      - name: Test all of the builds are still functioning
+      - run: yarn nx affected --target=build
+      - name: Test all of the tests are still passing
+      - run: yarn nx affected --target=test
       - run: echo "🍏 This job's status is ${{ job.status }}."

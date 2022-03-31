@@ -2,3 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 nx affected --target=test
+nx affected --target=version
+nx affected --target=build
