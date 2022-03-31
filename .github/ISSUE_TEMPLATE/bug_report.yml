@@ -1,5 +1,5 @@
 name: 🛠 Bug report
-description: Create a report to help us improve
+description: Create a report to help us improve the monorepo
 title: Good bug title tells us about precise symptom, not about the root cause.
 labels: [bug]
 body:
@@ -48,14 +48,28 @@ body:
     attributes:
       label: Environment
       description: |
-        For older commitizen versions, please include the output of the following commands manually
+        Please provide the environment you discovered this bug in (run `ng version`)
       placeholder: |
-        - commitizen version: `cz version`
-        - python version: `python --version`
-        - operating system: `python3 -c "import platform; print(platform.system())"`
+        Angular CLI: 13.2.6
+        Node: 16.14.0
+        Package Manager: yarn 1.22.17
+        OS: darwin x64
 
-        ```bash
-        cz version --report
-        ```
+        Angular: 13.2.7
+        ... animations, cli, common, compiler, compiler-cli, core, forms
+        ... platform-browser, platform-browser-dynamic, router
+
+        Package                         Version
+        ---------------------------------------------------------
+        @angular-devkit/architect       0.1302.6
+        @angular-devkit/build-angular   13.2.6
+        @angular-devkit/core            13.2.6
+        rxjs                            7.4.0
+        typescript                      4.5.5
     validations:
-      required: true
+      required: false
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else?

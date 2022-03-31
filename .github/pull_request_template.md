@@ -1,30 +1,42 @@
+## PR Checklist
+
+Please check if your PR fulfills the following requirements:
+
 <!--
-Thanks for sending a pull request!
-Please fill in the following content to let us know better about this change.
--->
+To be added
+- [ ] The commit message follows our guidelines: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit -->
 
-## Description
+- [ ] Tests for the changes have been added (for bug fixes / features)
+- [ ] Docs have been added / updated (for bug fixes / features)
 
-<!-- Describe what the change is -->
+## PR Type
 
-## Checklist
+What kind of change does this PR introduce?
 
-- [ ] Add test cases to all the changes you introduce
-- [ ] Run `./script/format` and `./script/test` locally to ensure this change passes linter check and test
-- [ ] Test the changes on the local machine manually
-- [ ] Update the documentation for the changes
+<!-- Please check the one that applies to this PR using "x". -->
 
-## Expected behavior
+- [ ] Bugfix
+- [ ] Feature
+- [ ] Code style update (formatting, local variables)
+- [ ] Refactoring (no functional changes, no api changes)
+- [ ] Build related changes
+- [ ] CI related changes
+- [ ] Documentation content changes
+- [ ] Other... Please describe:
 
-<!-- A clear and concise description of what you expected to happen -->
+## What is the current behavior?
 
-## Steps to Test This Pull Request
+<!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
 
-<!-- Steps to reproduce the behavior:
-1. ...
-2. ...
-3. ... -->
+Issue Number: N/A
 
-## Additional context
+## What is the new behavior?
 
-<!-- Add any other RELATED ISSUE, context or screenshots about the pull request here. -->
+## Does this PR introduce a breaking change?
+
+- [ ] Yes
+- [ ] No
+
+<!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
+
+## Other information
