@@ -64,7 +64,7 @@
     "@nxtend/capacitor": "^13.0.0",
     "@types/jest": "27.0.2",
     "@types/node": "16.11.7",
-    "@typescript-eslint/eslint-plugin": "~5.10.0",
+    "@typescript-eslint/eslint-plugin": "~5.17.0",
     "@typescript-eslint/parser": "~5.10.0",
     "autoprefixer": "^10.4.0",
     "cypress": "^9.1.0",
