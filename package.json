@@ -42,7 +42,7 @@
     "@angular-eslint/template-parser": "~13.0.1",
     "@angular/cli": "~13.2.0",
     "@angular/compiler-cli": "~13.2.0",
-    "@angular/language-service": "~13.2.0",
+    "@angular/language-service": "~13.3.1",
     "@capacitor/android": "^3.2.5",
     "@capacitor/cli": "^3.2.5",
     "@capacitor/ios": "^3.2.5",
