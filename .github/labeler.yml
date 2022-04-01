@@ -1,0 +1,52 @@
+# Add 'repo' label to any root file changes
+@repo:
+- '*'
+
+# Add '@libs' label to any change within the 'libs' directory
+@libs:
+- libs/*
+- libs/**/*
+
+# Add '@apps' label to any change within the 'apps' directory
+@apps:
+- apps/*
+- apps/**/*
+
+# Add '@api' label to any change within the domain of the api
+# in general, backend related changes
+@api:
+- libs/api/*
+- libs/api/**/*
+- apps/api/*
+- apps/api/**/*
+
+# Add '@test' label to any change to *.spec.ts
+# files within the apps and libs directories
+@test:
+- apps/**/*.spec.ts
+- libs/**/*.spec.ts
+
+# Add 'source' label to any change to src
+# files contained within the apps and libs
+@source:
+- apps/*
+- apps/**/*
+- libs/*
+- libs/**/*
+
+# Add 'frontend` label to any change
+# made within the mobile
+# or web grouping folders
+@frontend:
+- apps/mobile/*
+- apps/mobile/**/*
+- apps/web/*
+- apps/web/**/*
+
+# Add 'backend` label to any change
+# made within the api/backend
+@backend:
+- libs/api/*
+- libs/api/**/*
+- apps/api/*
+- apps/api/**/*
