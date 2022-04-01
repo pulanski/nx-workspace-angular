@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-workspace/api/core/feature": ["libs/api/core/feature/src/index.ts"]
+      "@nx-workspace/api/core/feature": ["libs/api/core/feature/src/index.ts"],
+      "@nx-workspace/web/shell/feature": ["libs/web/shell/feature/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

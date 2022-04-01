@@ -9,6 +9,7 @@
     "mobile-sortir-e2e": "apps/mobile/sortir-e2e",
     "web-linkedin": "apps/web/linkedin",
     "web-linkedin-e2e": "apps/web/linkedin-e2e",
+    "web-shell-feature": "libs/web/shell/feature",
     "web-sortir": "apps/web/sortir",
     "web-sortir-e2e": "apps/web/sortir-e2e"
   }
