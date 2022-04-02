@@ -7,6 +7,7 @@
     "mobile-linkedin-e2e": "apps/mobile/linkedin-e2e",
     "mobile-sortir": "apps/mobile/sortir",
     "mobile-sortir-e2e": "apps/mobile/sortir-e2e",
+    "shared-utils-compodoc-tools": "libs/shared/utils/compodoc-tools",
     "web-linkedin": "apps/web/linkedin",
     "web-linkedin-e2e": "apps/web/linkedin-e2e",
     "web-shell-feature": "libs/web/shell/feature",
