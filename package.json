@@ -60,7 +60,7 @@
     "@nrwl/nest": "^13.9.6",
     "@nrwl/node": "13.9.5",
     "@nrwl/nx-cloud": "latest",
-    "@nrwl/workspace": "13.9.5",
+    "@nrwl/workspace": "13.9.6",
     "@nxtend/capacitor": "^13.0.0",
     "@types/jest": "27.4.1",
     "@types/node": "16.11.7",
