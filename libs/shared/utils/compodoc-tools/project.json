@@ -38,6 +38,13 @@
       "configurations": {
         "json": {
           "exportFormat": "json"
+        },
+        "watch": {
+          "watch": true
+        },
+        "json-watch": {
+          "exportFormat": "json",
+          "watch": true
         }
       }
     }
