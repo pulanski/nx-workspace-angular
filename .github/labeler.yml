@@ -2,6 +2,30 @@
 repo:
   - '*'
 
+# Add 'config/dependencies' label to any root file changes
+config/dependencies:
+  - '*'
+
+# Add 'circleci' label to any circleci configuration changes
+circleci:
+  - '.circleci/*'
+  - '.circleci/**/*'
+
+# Add 'husky' label to any husky configuration changes
+husky:
+  - '.husky/*'
+  - '.husky/**/*'
+
+# Add 'github' label to any github configuration changes
+github:
+  - '.github/*'
+  - '.github/**/*'
+
+# Add 'gh-workflows' label to any github workflow configuration changes
+gh-workflows:
+  - '.github/workflows/*'
+  - '.github/workflows/**/*'
+
 # Add 'libs' label to any change within the 'libs' directory
 libs:
   - libs/*
