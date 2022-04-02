@@ -20,9 +20,12 @@
   <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx.png" 
 width="100%" alt="Nx - Smart, Fast and Extensible Build System"></p>
 
-[![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat)]() [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat)]() [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Mergify Status][mergify-status]][mergify]
+[![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat)]() [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat)]() [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 ![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)
-[![Issues][issues-shield]][issues-url] [![LinkedIn][linkedin-shield]][linkedin-url]
+
+[![Mergify Status][mergify-status]][mergify] ![labeler workflow](https://github.com/pulanski/nx-workspace/actions/workflows/labeler.yml/badge.svg) ![todo workflow](https://github.com/pulanski/nx-workspace/actions/workflows/todo.yml/badge.svg) [![Issues][issues-shield]][issues-url]
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
   <h2 align="center">nx-workspace</h2>
 
