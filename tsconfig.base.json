@@ -3,9 +3,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "sourceMap": true,
-    // highly recommended (required by few utilities)
     "strictNullChecks": true,
-    // this is optional, but enable whenever possible
     "strict": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -20,6 +18,7 @@
     "baseUrl": ".",
     "paths": {
       "@nx-workspace/api/core/feature": ["libs/api/core/feature/src/index.ts"],
+      "@nx-workspace/shared/utils/compodoc-tools": ["libs/shared/utils/compodoc-tools/src/index.ts"],
       "@nx-workspace/web/shell/feature": ["libs/web/shell/feature/src/index.ts"]
     }
   },
