@@ -20,13 +20,14 @@
   <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx.png" 
 width="100%" alt="Nx - Smart, Fast and Extensible Build System"></p>
 
-[![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat-square)]() [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]() [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
+[![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat)]() [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat)]() [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Mergify Status][mergify-status]][mergify]
+![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)
 [![Issues][issues-shield]][issues-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
   <h2 align="center">nx-workspace</h2>
 
   <p align="center">
-    Remote monorepo in which I build full stack typescript apps available for both web and mobile platforms using Nx, Ionic, Angular, RxJS, NestJS, TypeORM, and PostgreSQL
+    Remote monorepo housing full stack TypeScript apps available for both web and mobile platforms using Nx, Ionic, Angular, TailwindCSS, RxJS, NestJS, TypeORM, PostgreSQL, and Docker
 <!--  <br />    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
@@ -310,12 +311,14 @@ Here is a non-exhaustive list of some amazing resources for learning various tec
 [forks-url]: https://github.com/pulanski/nx-workspace/network/members
 [stars-shield]: https://img.shields.io/github/stars/pulanski/nx-workspace.svg?style=for-the-badge
 [stars-url]: https://github.com/pulanski/nx-workspace/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/pulanski/nx-workspace.svg?style=flat
 [issues-url]: https://github.com/pulanski/nx-workspace/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/josh-kersey/
 [product-screenshot]: images/screenshot.png
+[mergify]: https://mergify.com
+[mergify-status]: https://img.shields.io/endpoint.svg?url=https://api.mergify.com/v1/badges/pulanski/nx-workspace&style=flat
 
 > Written with [StackEdit](https://stackedit.io/).
