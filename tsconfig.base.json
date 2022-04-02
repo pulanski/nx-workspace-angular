@@ -3,6 +3,10 @@
   "compilerOptions": {
     "rootDir": ".",
     "sourceMap": true,
+    // highly recommended (required by few utilities)
+    "strictNullChecks": true,
+    // this is optional, but enable whenever possible
+    "strict": true,
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
