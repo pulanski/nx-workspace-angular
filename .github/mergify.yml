@@ -12,3 +12,12 @@ pull_request_rules:
     actions:
       merge:
         method: merge
+
+  - name: automatic merge for Snyk pull requests
+    conditions:
+      - title~=^\[Snyk\]
+      - head~=^snyk-fix
+      - check-success~=^security/snyk
+    actions:
+      merge:
+        method: merge
