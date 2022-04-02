@@ -2,5 +2,6 @@
   "vsicons.presets.nestjs": true,
   "window.zoomLevel": 1,
   "editor.fontSize": 18,
-  "terminal.integrated.fontSize": 18
+  "terminal.integrated.fontSize": 18,
+  "github-actions.workflows.pinned.workflows": []
 }
