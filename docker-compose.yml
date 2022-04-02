@@ -1,16 +1,17 @@
 version: '3.8'
 services:
-  nestjs:
-    image: nestjs/nestjs:3.8
-    ports:
-      - 3000:3000
-    environment:
-      NODE_ENV: production
-      NODE_PORT: 3000
-      NODE_HOST:
+  # TODO Configure NestJS in docker
+  # nestjs:
+  #   image: nestjs/nestjs:3.8
+  #   ports:
+  #     - 3000:3000
+  #   environment:
+  #     NODE_ENV: production
+  #     NODE_PORT: 3000
+  #     NODE_HOST:
 
-    networks:
-      - webnet
+  #   networks:
+  #     - webnet
 
   postgres:
     container_name: pg_container
