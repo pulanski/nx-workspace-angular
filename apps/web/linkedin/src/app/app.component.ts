@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'nx-workspace-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  template: `<nx-workspace-nx-welcome></nx-workspace-nx-welcome>`,
+  styles: [],
 })
 export class AppComponent {
   title = 'web-linkedin';
