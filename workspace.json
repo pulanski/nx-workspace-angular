@@ -3,6 +3,7 @@
   "projects": {
     "api": "apps/api",
     "api-core-feature": "libs/api/core/feature",
+    "api-feed-feature": "libs/api/feed/feature",
     "mobile-linkedin": "apps/mobile/linkedin",
     "mobile-linkedin-e2e": "apps/mobile/linkedin-e2e",
     "mobile-sortir": "apps/mobile/sortir",
