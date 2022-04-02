@@ -177,6 +177,7 @@ gh repo clone pulanski/nx-workspace
 As a note:
 
 - The GitHub CLI is not required for cloning the project, however it is a tool I came across a while back and have found to be useful in my experience with open-source software development as the API it provides is simple, declarative, and intuitive, making it easy to take a deep-dive into codebases for open-source projects you may find interesting.
+- Additionally, the CLI integrates quite nicely with the GitFlow branching strategy via commands like gh pr create --web
 - If you don't already have the GitHub CLI, it can be installed to your machine locally via your OS's package manager. Examples are shown below.
 
   - Mac/Homebrew
