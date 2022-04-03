@@ -6,7 +6,9 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/mobile/sortir",
         "index": "apps/mobile/sortir/src/index.html",
@@ -84,12 +86,17 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["apps/mobile/sortir/src/**/*.ts", "apps/mobile/sortir/src/**/*.html"]
+        "lintFilePatterns": [
+          "apps/mobile/sortir/src/**/*.ts",
+          "apps/mobile/sortir/src/**/*.html"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/mobile/sortir"],
+      "outputs": [
+        "coverage/apps/mobile/sortir"
+      ],
       "options": {
         "jestConfig": "apps/mobile/sortir/jest.config.js",
         "passWithNoTests": true

@@ -4,25 +4,35 @@
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/libs/api/feed/feature",
         "tsConfig": "libs/api/feed/feature/tsconfig.lib.json",
         "packageJson": "libs/api/feed/feature/package.json",
         "main": "libs/api/feed/feature/src/index.ts",
-        "assets": ["libs/api/feed/feature/*.md"]
+        "assets": [
+          "libs/api/feed/feature/*.md"
+        ]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["libs/api/feed/feature/**/*.ts"]
+        "lintFilePatterns": [
+          "libs/api/feed/feature/**/*.ts"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/api/feed/feature"],
+      "outputs": [
+        "coverage/libs/api/feed/feature"
+      ],
       "options": {
         "jestConfig": "libs/api/feed/feature/jest.config.js",
         "passWithNoTests": true

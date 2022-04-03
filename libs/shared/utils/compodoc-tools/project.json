@@ -5,24 +5,34 @@
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/libs/shared/utils/compodoc-tools",
         "main": "libs/shared/utils/compodoc-tools/src/index.ts",
         "tsConfig": "libs/shared/utils/compodoc-tools/tsconfig.lib.json",
-        "assets": ["libs/shared/utils/compodoc-tools/*.md"]
+        "assets": [
+          "libs/shared/utils/compodoc-tools/*.md"
+        ]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["libs/shared/utils/compodoc-tools/**/*.ts"]
+        "lintFilePatterns": [
+          "libs/shared/utils/compodoc-tools/**/*.ts"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/shared/utils/compodoc-tools"],
+      "outputs": [
+        "coverage/libs/shared/utils/compodoc-tools"
+      ],
       "options": {
         "jestConfig": "libs/shared/utils/compodoc-tools/jest.config.js",
         "passWithNoTests": true
@@ -49,5 +59,9 @@
       }
     }
   },
-  "tags": ["compodoc", "tools", "lib"]
+  "tags": [
+    "compodoc",
+    "tools",
+    "lib"
+  ]
 }

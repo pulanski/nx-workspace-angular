@@ -6,7 +6,9 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/mobile/linkedin",
         "index": "apps/mobile/linkedin/src/index.html",
@@ -87,12 +89,17 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": ["apps/mobile/linkedin/src/**/*.ts", "apps/mobile/linkedin/src/**/*.html"]
+        "lintFilePatterns": [
+          "apps/mobile/linkedin/src/**/*.ts",
+          "apps/mobile/linkedin/src/**/*.html"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/mobile/linkedin"],
+      "outputs": [
+        "coverage/apps/mobile/linkedin"
+      ],
       "options": {
         "jestConfig": "apps/mobile/linkedin/jest.config.js",
         "passWithNoTests": true

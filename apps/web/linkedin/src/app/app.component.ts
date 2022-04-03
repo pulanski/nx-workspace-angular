@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'nx-workspace-root',
-  template: `<nx-workspace-nx-welcome></nx-workspace-nx-welcome>`,
+  template: `<router-outlet></router-outlet>`,
   styles: [],
 })
 export class AppComponent {
