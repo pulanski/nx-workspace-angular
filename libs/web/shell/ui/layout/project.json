@@ -1,24 +1,24 @@
 {
   "projectType": "library",
-  "root": "libs/web/shell/feature",
-  "sourceRoot": "libs/web/shell/feature/src",
+  "root": "libs/web/shell/ui/layout",
+  "sourceRoot": "libs/web/shell/ui/layout/src",
   "prefix": "nx-workspace",
   "targets": {
     "build": {
       "executor": "@nrwl/angular:ng-packagr-lite",
       "outputs": [
-        "dist/libs/web/shell/feature"
+        "dist/libs/web/shell/ui/layout"
       ],
       "options": {
-        "project": "libs/web/shell/feature/ng-package.json",
-        "tailwindConfig": "libs/web/shell/feature/tailwind.config.js"
+        "project": "libs/web/shell/ui/layout/ng-package.json",
+        "tailwindConfig": "libs/web/shell/ui/layout/tailwind.config.js"
       },
       "configurations": {
         "production": {
-          "tsConfig": "libs/web/shell/feature/tsconfig.lib.prod.json"
+          "tsConfig": "libs/web/shell/ui/layout/tsconfig.lib.prod.json"
         },
         "development": {
-          "tsConfig": "libs/web/shell/feature/tsconfig.lib.json"
+          "tsConfig": "libs/web/shell/ui/layout/tsconfig.lib.json"
         }
       },
       "defaultConfiguration": "production"
@@ -26,10 +26,10 @@
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": [
-        "coverage/libs/web/shell/feature"
+        "coverage/libs/web/shell/ui/layout"
       ],
       "options": {
-        "jestConfig": "libs/web/shell/feature/jest.config.js",
+        "jestConfig": "libs/web/shell/ui/layout/jest.config.js",
         "passWithNoTests": true
       }
     },
@@ -37,8 +37,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "libs/web/shell/feature/src/**/*.ts",
-          "libs/web/shell/feature/src/**/*.html"
+          "libs/web/shell/ui/layout/src/**/*.ts",
+          "libs/web/shell/ui/layout/src/**/*.html"
         ]
       }
     }
