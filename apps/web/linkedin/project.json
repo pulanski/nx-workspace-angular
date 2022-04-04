@@ -6,9 +6,7 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/web/linkedin",
         "index": "apps/web/linkedin/src/index.html",
@@ -16,13 +14,8 @@
         "polyfills": "apps/web/linkedin/src/polyfills.ts",
         "tsConfig": "apps/web/linkedin/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": [
-          "apps/web/linkedin/src/favicon.ico",
-          "apps/web/linkedin/src/assets"
-        ],
-        "styles": [
-          "apps/web/linkedin/src/styles.scss"
-        ],
+        "assets": ["apps/web/linkedin/src/favicon.ico", "apps/web/linkedin/src/assets"],
+        "styles": ["apps/web/linkedin/src/styles.scss"],
         "scripts": [],
         "serviceWorker": true,
         "ngswConfigPath": "apps/web/linkedin/ngsw-config.json"
@@ -84,17 +77,12 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "apps/web/linkedin/src/**/*.ts",
-          "apps/web/linkedin/src/**/*.html"
-        ]
+        "lintFilePatterns": ["apps/web/linkedin/src/**/*.ts", "apps/web/linkedin/src/**/*.html"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": [
-        "coverage/apps/web/linkedin"
-      ],
+      "outputs": ["coverage/apps/web/linkedin"],
       "options": {
         "jestConfig": "apps/web/linkedin/jest.config.js",
         "passWithNoTests": true

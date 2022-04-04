@@ -21,6 +21,7 @@
       "@nx-workspace/api/feed/feature": ["libs/api/feed/feature/src/index.ts"],
       "@nx-workspace/shared/data-access/models": ["libs/shared/data-access/models/src/index.ts"],
       "@nx-workspace/shared/ui/material": ["libs/shared/ui/material/src/index.ts"],
+      "@nx-workspace/shared/ui/nebular": ["libs/shared/ui/nebular/src/index.ts"],
       "@nx-workspace/web/shell/feature": ["libs/web/shell/feature/src/index.ts"],
       "@nx-workspace/web/shell/ui/layout": ["libs/web/shell/ui/layout/src/index.ts"]
     }
