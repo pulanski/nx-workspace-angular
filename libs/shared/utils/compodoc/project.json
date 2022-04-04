@@ -1,0 +1,53 @@
+{
+  "root": "libs/shared/utils/compodoc",
+  "sourceRoot": "libs/shared/utils/compodoc/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/shared/utils/compodoc",
+        "main": "libs/shared/utils/compodoc/src/index.ts",
+        "tsConfig": "libs/shared/utils/compodoc/tsconfig.lib.json",
+        "assets": ["libs/shared/utils/compodoc/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/shared/utils/compodoc/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared/utils/compodoc"],
+      "options": {
+        "jestConfig": "libs/shared/utils/compodoc/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "compodoc": {
+      "executor": "@twittwer/compodoc:compodoc",
+      "options": {
+        "tsConfig": "libs/shared/utils/compodoc/tsconfig.compodoc.json",
+        "outputPath": "dist/compodoc/shared-utils-compodoc-tools",
+        "workspaceDocs": true
+      },
+      "configurations": {
+        "json": {
+          "exportFormat": "json"
+        },
+        "watch": {
+          "watch": true
+        },
+        "json-watch": {
+          "exportFormat": "json",
+          "watch": true
+        }
+      }
+    }
+  },
+  "tags": ["compodoc", "tools", "lib"]
+}

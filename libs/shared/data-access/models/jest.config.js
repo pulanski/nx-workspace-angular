@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'shared-utils-compodoc-tools',
+  displayName: 'shared-data-access-models',
   preset: '../../../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../../coverage/libs/shared/utils/compodoc-tools',
+  coverageDirectory: '../../../../coverage/libs/shared/data-access/models',
 };
