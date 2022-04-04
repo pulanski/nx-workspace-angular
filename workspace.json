@@ -9,6 +9,7 @@
     "mobile-sortir": "apps/mobile/sortir",
     "mobile-sortir-e2e": "apps/mobile/sortir-e2e",
     "shared-data-access-models": "libs/shared/data-access/models",
+    "shared-ui-material": "libs/shared/ui/material",
     "shared-utils-compodoc": "libs/shared/utils/compodoc",
     "web-linkedin": "apps/web/linkedin",
     "web-linkedin-e2e": "apps/web/linkedin-e2e",
