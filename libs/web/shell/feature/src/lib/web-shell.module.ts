@@ -1,15 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, Routes } from '@angular/router';
-import { LayoutComponent } from '@nx-workspace/web/shell/ui/layout';
-
-const webShellRoutes: Routes = [
-  {
-    path: '',
-    component: LayoutComponent,
-    // children: [{}],
-  },
-];
+import { RouterModule } from '@angular/router';
+import { webShellRoutes } from './web-shell.routes';
 
 @NgModule({
   imports: [CommonModule, RouterModule.forRoot(webShellRoutes)],
