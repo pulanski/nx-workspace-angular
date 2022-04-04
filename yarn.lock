@@ -2994,10 +2994,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@twittwer/compodoc@^1.6.6":
-  version "1.6.6"
-  resolved "https://registry.yarnpkg.com/@twittwer/compodoc/-/compodoc-1.6.6.tgz#cf42b77bddaab8b6e921920efab985b8f30bc690"
-  integrity sha512-KYs1mKjTaYESvXYeVWN/J0TKxP9VRKILEkXhCe/khBRhYcz4btwAj9nVhBfrY+YS5YNGjffzczj5EuEiDTmCYw==
+"@twittwer/compodoc@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@twittwer/compodoc/-/compodoc-1.7.0.tgz#53f1862a6d283e448233b672b395890d22c40121"
+  integrity sha512-AsGK4oWBPtUhTj8PpEDHYgPRGHnePu8CobvwPR0Y57ud7ojPJz8x55O3bcVbpPu8/g7/4lLlg1trQJim9ZhiAw==
   dependencies:
     "@nrwl/devkit" "^13.1.2"
     tslib "^2.3.1"
