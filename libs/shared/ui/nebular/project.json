@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/shared/ui/nebular",
+  "sourceRoot": "libs/shared/ui/nebular/src",
+  "prefix": "nx-workspace",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared/ui/nebular"],
+      "options": {
+        "jestConfig": "libs/shared/ui/nebular/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/shared/ui/nebular/src/**/*.ts", "libs/shared/ui/nebular/src/**/*.html"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -2,6 +2,8 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import { Component, OnInit, ChangeDetectionStrategy, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NbCardModule, NbLayoutModule } from '@nebular/theme';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
 
 @Component({
   selector: 'nx-workspace-layout',
@@ -16,7 +18,7 @@ export class LayoutComponent implements OnInit {
 }
 
 @NgModule({
-  imports: [CommonModule],
+  imports: [CommonModule, NbLayoutModule, NbEvaIconsModule, NbCardModule],
   declarations: [LayoutComponent],
   exports: [LayoutComponent],
 })
