@@ -5,7 +5,7 @@ import { WebShellModule } from '@nx-workspace/web/shell/feature';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { NbCardModule, NbLayoutModule, NbThemeModule } from '@nebular/theme';
+import { NbLayoutModule, NbThemeModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 
 @NgModule({
@@ -19,7 +19,7 @@ import { NbEvaIconsModule } from '@nebular/eva-icons';
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000',
     }),
-    NbThemeModule.forRoot({ name: 'dark' }),
+    NbThemeModule.forRoot({ name: window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default' }),
     NbLayoutModule,
     NbEvaIconsModule,
   ],

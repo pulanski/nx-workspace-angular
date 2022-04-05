@@ -1,10 +1,13 @@
 import { Routes } from '@angular/router';
-import { LayoutComponent } from '@nx-workspace/web/shell/ui/layout';
 
 export const webShellRoutes: Routes = [
   {
     path: '',
-    component: LayoutComponent,
-    // children: [{}],
+    children: [
+      {
+        path: '',
+        loadChildren: async () => (await import('@nx-workspace/web-home-linkedin-feature')).HomeModule,
+      },
+    ],
   },
 ];

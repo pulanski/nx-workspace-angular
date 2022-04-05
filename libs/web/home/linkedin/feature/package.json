@@ -1,5 +1,5 @@
 {
-  "name": "@nx-workspace/web/shell/ui/layout",
+  "name": "@nx-workspace/web-home-linkedin-feature",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^13.3.0",
