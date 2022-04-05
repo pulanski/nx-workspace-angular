@@ -17,6 +17,13 @@
       "options": {
         "lintFilePatterns": ["libs/shared/ui/nebular/src/**/*.ts", "libs/shared/ui/nebular/src/**/*.html"]
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "angular",
+        "commitMessageFormat": "chore(${projectName}): release version ${version}"
+      }
     }
   },
   "tags": []
