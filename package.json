@@ -53,6 +53,7 @@
     "@capacitor/cli": "^3.2.5",
     "@capacitor/ios": "^3.2.5",
     "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-angular": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
     "@compodoc/compodoc": "^1.1.15",
     "@jscutlery/semver": "^2.21.5",

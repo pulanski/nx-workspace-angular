@@ -3,6 +3,6 @@
 
 nx affected --target=test
 # nx affected --target=e2e
-nx affected --target=version
+# nx affected --target=version
 # nx affected --target=build
 npx lint-staged

@@ -6,9 +6,7 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/web/sortir",
         "index": "apps/web/sortir/src/index.html",
@@ -16,13 +14,8 @@
         "polyfills": "apps/web/sortir/src/polyfills.ts",
         "tsConfig": "apps/web/sortir/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": [
-          "apps/web/sortir/src/favicon.ico",
-          "apps/web/sortir/src/assets"
-        ],
-        "styles": [
-          "apps/web/sortir/src/styles.scss"
-        ],
+        "assets": ["apps/web/sortir/src/favicon.ico", "apps/web/sortir/src/assets"],
+        "styles": ["apps/web/sortir/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -82,20 +75,22 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "apps/web/sortir/src/**/*.ts",
-          "apps/web/sortir/src/**/*.html"
-        ]
+        "lintFilePatterns": ["apps/web/sortir/src/**/*.ts", "apps/web/sortir/src/**/*.html"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": [
-        "coverage/apps/web/sortir"
-      ],
+      "outputs": ["coverage/apps/web/sortir"],
       "options": {
         "jestConfig": "apps/web/sortir/jest.config.js",
         "passWithNoTests": true
+      }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "angular",
+        "commitMessageFormat": "chore(${projectName}): release version ${version}"
       }
     }
   },
