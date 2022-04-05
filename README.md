@@ -1,14 +1,6 @@
 # nx-workspace
 
 <div id="top"></div>
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 <!-- [![Contributors][contributors-shield]][contributors-url] -->
 <!-- [![Stargazers][stars-shield]][stars-url] -->
@@ -20,10 +12,21 @@
   <p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx.png" 
 width="100%" alt="Nx - Smart, Fast and Extensible Build System"></p>
 
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
 [![License](https://img.shields.io/npm/l/@nrwl/workspace.svg?style=flat)]() [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat)]() [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 ![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)
 
 [![Mergify Status][mergify-status]][mergify] ![labeler workflow](https://github.com/pulanski/nx-workspace/actions/workflows/labeler.yml/badge.svg) ![todo workflow](https://github.com/pulanski/nx-workspace/actions/workflows/todo.yml/badge.svg) [![Issues][issues-shield]][issues-url]
+
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=pulanski_nx-workspace&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=pulanski_nx-workspace) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=pulanski_nx-workspace&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=pulanski_nx-workspace) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=pulanski_nx-workspace&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=pulanski_nx-workspace) [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=pulanski_nx-workspace&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=pulanski_nx-workspace) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=pulanski_nx-workspace&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=pulanski_nx-workspace)
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -305,6 +308,8 @@ Here is a non-exhaustive list of some amazing resources for learning various tec
 - [Ben Awad](https://www.youtube.com/c/BenAwad97)
 - [Joshua Morony](https://www.youtube.com/c/JoshuaMorony)
 - [Brandon Roberts](https://www.youtube.com/c/BrandonRobertsDev)
+- [Nrwl](https://www.youtube.com/c/Nrwl_io)
+- [ng-conf](https://www.youtube.com/c/ngconfonline)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
