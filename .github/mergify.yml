@@ -1,15 +1,9 @@
 pull_request_rules:
   - name: Automatic merge ⬇️ on approval ✔
-    # https://docs.mergify.com/conditions/#about-status-checks
     conditions:
-      and:
-        - 'author=pulanski'
-        - 'check-success=coverage_for_pull_requests'
-        or:
-          - check-success=continuous-integration/circle-ci
-          - check-neutral=continuous-integration/circle-ci
-          - check-skipped=continuous-integration/circle-ci
-
+      - 'author=pulanski'
+      - 'check-success=coverage_for_pull_requests'
+      # https://docs.mergify.com/conditions/#about-status-checks
     actions:
       merge:
         method: merge
