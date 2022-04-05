@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'web-shell-ui-layout',
+  displayName: 'web-home-linkedin-feature',
   preset: '../../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -8,7 +8,7 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../../../../coverage/libs/web/shell/ui/layout',
+  coverageDirectory: '../../../../../coverage/libs/web/home/linkedin/feature',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

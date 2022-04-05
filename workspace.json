@@ -12,10 +12,10 @@
     "shared-ui-material": "libs/shared/ui/material",
     "shared-ui-nebular": "libs/shared/ui/nebular",
     "shared-utils-compodoc": "libs/shared/utils/compodoc",
+    "web-home-linkedin-feature": "libs/web/home/linkedin/feature",
     "web-linkedin": "apps/web/linkedin",
     "web-linkedin-e2e": "apps/web/linkedin-e2e",
     "web-shell-feature": "libs/web/shell/feature",
-    "web-shell-ui-layout": "libs/web/shell/ui/layout",
     "web-sortir": "apps/web/sortir",
     "web-sortir-e2e": "apps/web/sortir-e2e"
   }

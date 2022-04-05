@@ -1,0 +1,27 @@
+<!-- TODO: Refactor into ui libraries  -->
+
+<nb-layout>
+  <nb-layout-header class="flex border-solid border-black border-b-2">
+    <nb-icon
+      icon="linkedin"
+      [options]="{ animation: { type: 'zoom' } }"
+      status="primary"
+      class="cursor-pointer mx-2 w-14 h-14"
+    ></nb-icon>
+
+    <!-- TODO: Look into animations for tabIcons -->
+    <nb-tabset class="ml-auto h-12">
+      <nb-tab tabTitle="Home" tabIcon="home" class="items-center"></nb-tab>
+      <nb-tab tabTitle="My Network" tabIcon="people"></nb-tab>
+      <nb-tab tabTitle="Jobs" tabIcon="briefcase"></nb-tab>
+      <nb-tab tabTitle="Messaging" tabIcon="message-circle"></nb-tab>
+      <nb-tab tabTitle="Notifications" tabIcon="bell"></nb-tab>
+    </nb-tabset>
+    <button nbPopover="Bottom Popover!">
+      <nb-user size="large" name="John Doe" title="Engineer" class="ml-4"></nb-user>
+    </button>
+  </nb-layout-header>
+  <nb-layout-footer></nb-layout-footer>
+  <nb-layout-column></nb-layout-column>
+  <!-- <nb-sidebar></nb-sidebar> -->
+</nb-layout>
