@@ -24,8 +24,7 @@ rules-config:
     fail-at-months: 9
   few-yearly-commits: disabled # disable this one entirely
 
-  single-recent-author: fail # normally this will just warn, but we want it to fail the check
-
+  single-recent-author: warn
 
   # these defaults are fine, so we don't change them
 
