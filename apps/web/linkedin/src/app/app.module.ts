@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { WebShellModule } from '@nx-workspace/web/shell/feature';
+import { WebShellModule } from '@nx-workspace/web-linkedin-shell-feature';
 
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';

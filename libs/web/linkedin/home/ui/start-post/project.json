@@ -1,0 +1,43 @@
+{
+  "projectType": "library",
+  "root": "libs/web/linkedin/home/ui/start-post",
+  "sourceRoot": "libs/web/linkedin/home/ui/start-post/src",
+  "prefix": "nx-workspace",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:ng-packagr-lite",
+      "outputs": ["dist/libs/web/linkedin/home/ui/start-post"],
+      "options": {
+        "project": "libs/web/linkedin/home/ui/start-post/ng-package.json",
+        "tailwindConfig": "libs/web/linkedin/home/ui/start-post/tailwind.config.js"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/web/linkedin/home/ui/start-post/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/web/linkedin/home/ui/start-post/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/linkedin/home/ui/start-post"],
+      "options": {
+        "jestConfig": "libs/web/linkedin/home/ui/start-post/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/linkedin/home/ui/start-post/src/**/*.ts",
+          "libs/web/linkedin/home/ui/start-post/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
