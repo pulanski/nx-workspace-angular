@@ -1,41 +1,38 @@
 {
   "projectType": "library",
-  "root": "libs/web/home/linkedin/feature",
-  "sourceRoot": "libs/web/home/linkedin/feature/src",
+  "root": "libs/web/home/feature",
+  "sourceRoot": "libs/web/home/feature/src",
   "prefix": "nx-workspace",
   "targets": {
     "build": {
       "executor": "@nrwl/angular:ng-packagr-lite",
-      "outputs": ["dist/libs/web/home/linkedin/feature"],
+      "outputs": ["dist/libs/web/home/feature"],
       "options": {
-        "project": "libs/web/home/linkedin/feature/ng-package.json",
-        "tailwindConfig": "libs/web/home/linkedin/feature/tailwind.config.js"
+        "project": "libs/web/home/feature/ng-package.json",
+        "tailwindConfig": "libs/web/home/feature/tailwind.config.js"
       },
       "configurations": {
         "production": {
-          "tsConfig": "libs/web/home/linkedin/feature/tsconfig.lib.prod.json"
+          "tsConfig": "libs/web/home/feature/tsconfig.lib.prod.json"
         },
         "development": {
-          "tsConfig": "libs/web/home/linkedin/feature/tsconfig.lib.json"
+          "tsConfig": "libs/web/home/feature/tsconfig.lib.json"
         }
       },
       "defaultConfiguration": "production"
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/web/home/linkedin/feature"],
+      "outputs": ["coverage/libs/web/home/feature"],
       "options": {
-        "jestConfig": "libs/web/home/linkedin/feature/jest.config.js",
+        "jestConfig": "libs/web/home/feature/jest.config.js",
         "passWithNoTests": true
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "libs/web/home/linkedin/feature/src/**/*.ts",
-          "libs/web/home/linkedin/feature/src/**/*.html"
-        ]
+        "lintFilePatterns": ["libs/web/home/feature/src/**/*.ts", "libs/web/home/feature/src/**/*.html"]
       }
     },
     "version": {

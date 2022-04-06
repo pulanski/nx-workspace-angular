@@ -22,7 +22,8 @@
       "@nx-workspace/shared/data-access/models": ["libs/shared/data-access/models/src/index.ts"],
       "@nx-workspace/shared/ui/material": ["libs/shared/ui/material/src/index.ts"],
       "@nx-workspace/shared/ui/nebular": ["libs/shared/ui/nebular/src/index.ts"],
-      "@nx-workspace/web-home-linkedin-feature": ["libs/web/home/linkedin/feature/src/index.ts"],
+      "@nx-workspace/web-home-feature": ["libs/web/home/feature/src/index.ts"],
+      "@nx-workspace/web/home/ui/start-post": ["libs/web/home/ui/start-post/src/index.ts"],
       "@nx-workspace/web/shell/feature": ["libs/web/shell/feature/src/index.ts"]
     }
   },
