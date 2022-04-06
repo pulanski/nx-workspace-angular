@@ -11,6 +11,7 @@ import {
   NbTabsetModule,
   NbUserModule,
 } from '@nebular/theme';
+import { StartPostModule } from '@nx-workspace/web/home/ui/start-post';
 
 @NgModule({
   imports: [
@@ -28,6 +29,7 @@ import {
     NbButtonModule,
     NbUserModule,
     NbPopoverModule,
+    StartPostModule,
   ],
   declarations: [HomeComponent],
   exports: [HomeComponent],

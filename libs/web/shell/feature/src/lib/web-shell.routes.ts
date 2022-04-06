@@ -6,7 +6,7 @@ export const webShellRoutes: Routes = [
     children: [
       {
         path: '',
-        loadChildren: async () => (await import('@nx-workspace/web-home-linkedin-feature')).HomeModule,
+        loadChildren: async () => (await import('@nx-workspace/web-home-feature')).HomeModule,
       },
     ],
   },
