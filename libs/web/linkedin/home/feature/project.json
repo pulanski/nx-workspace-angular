@@ -1,0 +1,50 @@
+{
+  "projectType": "library",
+  "root": "libs/web/linkedin/home/feature",
+  "sourceRoot": "libs/web/linkedin/home/feature/src",
+  "prefix": "nx-workspace",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:ng-packagr-lite",
+      "outputs": ["dist/libs/web/linkedin/home/feature"],
+      "options": {
+        "project": "libs/web/linkedin/home/feature/ng-package.json",
+        "tailwindConfig": "libs/web/linkedin/home/feature/tailwind.config.js"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/web/linkedin/home/feature/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/web/linkedin/home/feature/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/linkedin/home/feature"],
+      "options": {
+        "jestConfig": "libs/web/linkedin/home/feature/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/linkedin/home/feature/src/**/*.ts",
+          "libs/web/linkedin/home/feature/src/**/*.html"
+        ]
+      }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "angular",
+        "commitMessageFormat": "chore(${projectName}): release version ${version}"
+      }
+    }
+  },
+  "tags": []
+}

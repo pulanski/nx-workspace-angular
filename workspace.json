@@ -12,11 +12,11 @@
     "shared-ui-material": "libs/shared/ui/material",
     "shared-ui-nebular": "libs/shared/ui/nebular",
     "shared-utils-compodoc": "libs/shared/utils/compodoc",
-    "web-home-feature": "libs/web/home/feature",
-    "web-home-ui-start-post": "libs/web/home/ui/start-post",
     "web-linkedin": "apps/web/linkedin",
     "web-linkedin-e2e": "apps/web/linkedin-e2e",
-    "web-shell-feature": "libs/web/shell/feature",
+    "web-linkedin-home-feature": "libs/web/linkedin/home/feature",
+    "web-linkedin-home-ui-start-post": "libs/web/linkedin/home/ui/start-post",
+    "web-linkedin-shell-feature": "libs/web/linkedin/shell/feature",
     "web-sortir": "apps/web/sortir",
     "web-sortir-e2e": "apps/web/sortir-e2e"
   }
