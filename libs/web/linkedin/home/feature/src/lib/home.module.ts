@@ -7,11 +7,14 @@ import {
   NbIconModule,
   NbLayoutModule,
   NbPopoverModule,
+  NbSearchModule,
   NbSidebarModule,
   NbTabsetModule,
+  NbInputModule,
   NbUserModule,
 } from '@nebular/theme';
 import { StartPostModule } from '@nx-workspace/web-linkedin-home-ui-start-post';
+import { HeaderModule } from '@nx-workspace/web/linkedin/home/ui/header';
 
 @NgModule({
   imports: [
@@ -29,7 +32,10 @@ import { StartPostModule } from '@nx-workspace/web-linkedin-home-ui-start-post';
     NbButtonModule,
     NbUserModule,
     NbPopoverModule,
+    NbSearchModule,
+    NbInputModule,
     StartPostModule,
+    HeaderModule,
   ],
   declarations: [HomeComponent],
   exports: [HomeComponent],

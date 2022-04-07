@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { NbSearchService } from '@nebular/theme';
 
 @Component({
   selector: 'nx-workspace-home',
@@ -10,9 +11,13 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 export class HomeComponent implements OnInit {
   title = 'LinkedIn';
 
-  constructor() {}
+  constructor(private searchService: NbSearchService) {}
 
   ngOnInit(): void {
     console.log('HomeComponent.ngOnInit()');
+  }
+
+  openSearch(): void {
+    this.searchService.activateSearch('');
   }
 }

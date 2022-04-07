@@ -1,7 +1,13 @@
-<nb-card accent="primary">
-  <nb-card-header>
+<nb-card accent="primary" class="w-1/3">
+  <nb-card-header class="flex">
+    <nb-user size="medium" onlyPicture="true" class="ml-4"></nb-user>
     <button (click)="openWindowWithBackdrop()" nbButton outline status="info">Start a post</button>
   </nb-card-header>
+  <nb-card-body class="flex space-x-2" style="justify-content: center">
+    <!-- TODO: add functionality to each button -->
+    <button nbButton>Photo</button><button nbButton>Video</button><button nbButton>Event</button
+    ><button nbButton>Write article</button>
+  </nb-card-body>
 </nb-card>
 
 <ng-template #startPostWindowTemplate> Click escape to close. </ng-template>
