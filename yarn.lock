@@ -256,10 +256,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/compiler-cli@~13.2.0":
-  version "13.2.7"
-  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-13.2.7.tgz#a080e57554b084b1bec76a78073ef9d1e0861737"
-  integrity sha512-EZFWHyC2PO3ECEgX/WTMaTEvH4isvtw8E/l+48YHvINeHoxPGF7Or8qEeu/lvGlXMzBd89QH1ohutfz93vNz+g==
+"@angular/compiler-cli@~13.3.2":
+  version "13.3.2"
+  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-13.3.2.tgz#97aaa5c1279c4c012a689ffec371e17274e7cdbf"
+  integrity sha512-w7mUTKatzTZSX57IHZ3725wXRrA2cRXwRWWfKvnglTP4XJXbcgBNeDKkJLSPwRS2Hll9eqVrwEINd+cBc/zlDA==
   dependencies:
     "@babel/core" "^7.17.2"
     chokidar "^3.0.0"
