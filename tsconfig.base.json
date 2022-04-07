@@ -19,6 +19,7 @@
     "paths": {
       "@nx-workspace/api/core/feature": ["libs/api/core/feature/src/index.ts"],
       "@nx-workspace/api/feed/feature": ["libs/api/feed/feature/src/index.ts"],
+      "@nx-workspace/shared/assets": ["libs/shared/assets/src/index.ts"],
       "@nx-workspace/shared/data-access/models": ["libs/shared/data-access/models/src/index.ts"],
       "@nx-workspace/shared/ui/material": ["libs/shared/ui/material/src/index.ts"],
       "@nx-workspace/shared/ui/nebular": ["libs/shared/ui/nebular/src/index.ts"],
