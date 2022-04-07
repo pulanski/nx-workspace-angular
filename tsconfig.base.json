@@ -26,7 +26,8 @@
       "@nx-workspace/web-linkedin-home-feature": ["libs/web/linkedin/home/feature/src/index.ts"],
       "@nx-workspace/web-linkedin-home-ui-start-post": ["libs/web/linkedin/home/ui/start-post/src/index.ts"],
       "@nx-workspace/web-linkedin-shell-feature": ["libs/web/linkedin/shell/feature/src/index.ts"],
-      "@nx-workspace/web/linkedin/home/ui/header": ["libs/web/linkedin/home/ui/header/src/index.ts"]
+      "@nx-workspace/web/linkedin/home/ui/header": ["libs/web/linkedin/home/ui/header/src/index.ts"],
+      "@nx-workspace/web/linkedin/home/ui/profile-summary": ["libs/web/linkedin/home/ui/profile-summary/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

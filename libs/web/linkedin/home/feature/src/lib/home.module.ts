@@ -15,6 +15,7 @@ import {
 } from '@nebular/theme';
 import { StartPostModule } from '@nx-workspace/web-linkedin-home-ui-start-post';
 import { HeaderModule } from '@nx-workspace/web/linkedin/home/ui/header';
+import { ProfileSummaryModule } from '@nx-workspace/web/linkedin/home/ui/profile-summary';
 
 @NgModule({
   imports: [
@@ -35,6 +36,7 @@ import { HeaderModule } from '@nx-workspace/web/linkedin/home/ui/header';
     NbSearchModule,
     NbInputModule,
     StartPostModule,
+    ProfileSummaryModule,
     HeaderModule,
   ],
   declarations: [HomeComponent],
