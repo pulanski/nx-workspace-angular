@@ -8,6 +8,7 @@
     "mobile-linkedin-e2e": "apps/mobile/linkedin-e2e",
     "mobile-sortir": "apps/mobile/sortir",
     "mobile-sortir-e2e": "apps/mobile/sortir-e2e",
+    "shared-assets": "libs/shared/assets",
     "shared-data-access-models": "libs/shared/data-access/models",
     "shared-ui-material": "libs/shared/ui/material",
     "shared-ui-nebular": "libs/shared/ui/nebular",
