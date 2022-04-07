@@ -73,7 +73,7 @@
     "@nxtend/capacitor": "^13.0.0",
     "@twittwer/compodoc": "^1.7.0",
     "@types/jest": "27.4.1",
-    "@types/node": "16.11.7",
+    "@types/node": "17.0.23",
     "@typescript-eslint/eslint-plugin": "~5.17.0",
     "@typescript-eslint/parser": "~5.10.0",
     "autoprefixer": "^10.4.0",
