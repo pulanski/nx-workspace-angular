@@ -28,7 +28,7 @@
     "@nebular/theme": "^9.0.1",
     "@nestjs/common": "^8.0.0",
     "@nestjs/config": "^2.0.0",
-    "@nestjs/core": "^8.0.0",
+    "@nestjs/core": "^8.4.4",
     "@nestjs/platform-express": "^8.0.0",
     "@nestjs/typeorm": "^8.0.3",
     "@nxtend/capacitor": "13.0.0",
