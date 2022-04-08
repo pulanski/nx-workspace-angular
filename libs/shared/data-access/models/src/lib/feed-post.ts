@@ -1,4 +1,4 @@
-export interface Post {
+export interface FeedPost {
   id: number;
   title: string;
   body: string;

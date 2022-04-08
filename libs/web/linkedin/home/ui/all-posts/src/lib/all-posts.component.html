@@ -1,0 +1,12 @@
+<nb-list>
+  <nb-list-item *ngFor="let post of posts">
+    <nb-card>
+      <nb-card-body
+        ><!-- body of post -->
+        <p class="post-body">
+          {{ post.body }}
+        </p>
+      </nb-card-body>
+    </nb-card>
+  </nb-list-item>
+</nb-list>

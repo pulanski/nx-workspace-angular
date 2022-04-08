@@ -9,6 +9,7 @@ import {
   NbPopoverModule,
   NbSearchModule,
   NbTabsetModule,
+  NbActionsModule,
 } from '@nebular/theme';
 
 @NgModule({
@@ -21,6 +22,7 @@ import {
     NbPopoverModule,
     NbSearchModule,
     NbInputModule,
+    NbActionsModule,
   ],
   declarations: [HeaderComponent],
   exports: [HeaderComponent],

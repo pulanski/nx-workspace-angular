@@ -1,4 +1,4 @@
-<div class="flex">
+<div class="flex gap-5">
   <nb-icon
     icon="linkedin"
     [options]="{ animation: { type: 'zoom' } }"
@@ -6,18 +6,16 @@
     class="cursor-pointer mx-2 w-14 h-14"
   ></nb-icon>
 
-  <input type="text" nbInput fullWidth status="basic" placeholder="Default" />
+  <input type="text" nbInput status="basic" placeholder="Search..." fieldSize="tiny" />
 
   <nb-search type="rotate-layout" placeholder="Search..."></nb-search>
 
-  <!-- TODO: Look into animations for tabIcons -->
-  <nb-tabset class="ml-auto h-12">
-    <nb-tab tabTitle="Home" tabIcon="home" class="items-center text-sm"></nb-tab>
-    <nb-tab tabTitle="My Network" tabIcon="people"></nb-tab>
-    <nb-tab tabTitle="Jobs" tabIcon="briefcase"></nb-tab>
-    <nb-tab tabTitle="Messaging" tabIcon="message-circle"></nb-tab>
-    <nb-tab tabTitle="Notifications" tabIcon="bell"></nb-tab>
-  </nb-tabset>
+  <nb-actions>
+    <nb-action icon="home"></nb-action>
+    <nb-action icon="people"></nb-action>
+    <nb-action icon="message-circle"></nb-action>
+    <nb-action icon="bell"></nb-action>
+  </nb-actions>
   <button nbPopover="Bottom Popover!">
     <nb-user size="large" name="Josh Kersey" title="Engineer" class="ml-4"></nb-user>
   </button>

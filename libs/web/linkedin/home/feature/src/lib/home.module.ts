@@ -17,6 +17,7 @@ import { StartPostModule } from '@nx-workspace/web-linkedin-home-ui-start-post';
 import { HeaderModule } from '@nx-workspace/web/linkedin/home/ui/header';
 import { ProfileSummaryModule } from '@nx-workspace/web/linkedin/home/ui/profile-summary';
 import { AdvertisingModule } from '@nx-workspace/web/linkedin/home/ui/advertising';
+import { AllPostsModule } from '@nx-workspace/web/linkedin/home/ui/all-posts';
 
 @NgModule({
   imports: [
@@ -40,6 +41,7 @@ import { AdvertisingModule } from '@nx-workspace/web/linkedin/home/ui/advertisin
     ProfileSummaryModule,
     AdvertisingModule,
     HeaderModule,
+    AllPostsModule,
   ],
   declarations: [HomeComponent],
   exports: [HomeComponent],
