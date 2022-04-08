@@ -1,11 +1,30 @@
 <nb-list>
   <nb-list-item *ngFor="let post of posts">
     <nb-card>
-      <nb-card-body
-        ><!-- body of post -->
+      <nb-card-body>
+        <!-- body of post -->
         <p class="post-body">
           {{ post.body }}
         </p>
+        <!-- post buttons, like, comment -->
+        <div class="flex">
+          <button nbButton outline status="info" size="small">
+            <nb-icon class="mr-2" icon="heart-outline" status="danger"></nb-icon>
+            Like
+          </button>
+          <button nbButton outline status="info" size="small">
+            <nb-icon class="mr-2" icon="heart-outline" status="danger"></nb-icon>
+            Like
+          </button>
+          <button nbButton outline status="info" size="small">
+            <nb-icon class="mr-2" icon="heart-outline" status="danger"></nb-icon>
+            Like
+          </button>
+          <button nbButton outline status="info" size="small">
+            <nb-icon class="mr-2" icon="heart-outline" status="danger"></nb-icon>
+            Like
+          </button>
+        </div>
       </nb-card-body>
     </nb-card>
   </nb-list-item>

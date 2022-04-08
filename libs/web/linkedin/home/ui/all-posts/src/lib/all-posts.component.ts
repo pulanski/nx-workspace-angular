@@ -29,9 +29,23 @@ export class AllPostsComponent implements OnInit {
       body: 'Post 3 body',
       createdAt: new Date(),
     },
+    {
+      id: 1,
+      title: 'Post 1',
+      body: 'Post 3 body',
+      createdAt: new Date(),
+    },
+    {
+      id: 1,
+      title: 'Post 1',
+      body: 'Post 3 body',
+      createdAt: new Date(),
+    },
   ];
 
   constructor() {}
 
   ngOnInit(): void {}
+
+  loadNext(): void {}
 }
