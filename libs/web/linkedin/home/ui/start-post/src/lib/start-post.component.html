@@ -1,13 +1,26 @@
-<nb-card accent="primary">
-  <nb-card-header class="flex">
-    <nb-user size="medium" onlyPicture="true" class="ml-4"></nb-user>
+<nb-card accent="primary" class="w-max">
+  <nb-card-header class="flex justify-between">
+    <nb-user size="medium" onlyPicture="true" class="ml-4" name="Josh Kersey"></nb-user>
     <button (click)="openWindowWithBackdrop()" nbButton outline status="info">Start a post</button>
   </nb-card-header>
-  <nb-card-body class="flex space-x-2" style="justify-content: center">
-    <!-- TODO: add functionality to each button -->
-    <button nbButton>Photo</button><button nbButton>Video</button><button nbButton>Event</button
-    ><button nbButton>Write article</button>
-  </nb-card-body>
+  <div class="flex space-x-2 justify-center align-middle p-3">
+    <button nbButton size="tiny">
+      <nb-icon icon="image-outline"></nb-icon>
+      Photo
+    </button>
+    <button nbButton size="tiny">
+      <nb-icon icon="video-outline"></nb-icon>
+      Video
+    </button>
+    <button nbButton size="tiny">
+      <nb-icon icon="calendar-outline"></nb-icon>
+      Event
+    </button>
+    <button nbButton size="tiny">
+      <nb-icon icon="edit-outline"></nb-icon>
+      Write article
+    </button>
+  </div>
 </nb-card>
 
 <ng-template #startPostWindowTemplate> Click escape to close. </ng-template>
