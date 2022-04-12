@@ -23,7 +23,7 @@
     "@angular/router": "~13.3.0",
     "@angular/service-worker": "~13.3.0",
     "@capacitor/core": "^3.2.5",
-    "@ionic/angular": "^6.0.14",
+    "@ionic/angular": "^6.0.16",
     "@nebular/eva-icons": "^9.0.1",
     "@nebular/theme": "^9.0.1",
     "@nestjs/common": "^8.4.4",
