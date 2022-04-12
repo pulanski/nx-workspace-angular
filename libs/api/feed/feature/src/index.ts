@@ -1,2 +1,2 @@
-export * from './lib/api-feed.controller';
-export * from './lib/api-feed.module';
+export * from './lib/feed.controller';
+export * from './lib/feed.module';
