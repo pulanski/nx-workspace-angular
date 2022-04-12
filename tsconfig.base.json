@@ -18,6 +18,7 @@
     "baseUrl": ".",
     "paths": {
       "@nx-workspace/api/core/feature": ["libs/api/core/feature/src/index.ts"],
+      "@nx-workspace/api/feed/data-access": ["libs/api/feed/data-access/src/index.ts"],
       "@nx-workspace/api/feed/feature": ["libs/api/feed/feature/src/index.ts"],
       "@nx-workspace/shared/assets": ["libs/shared/assets/src/index.ts"],
       "@nx-workspace/shared/data-access/models": ["libs/shared/data-access/models/src/index.ts"],
@@ -26,6 +27,7 @@
       "@nx-workspace/web-linkedin-home-feature": ["libs/web/linkedin/home/feature/src/index.ts"],
       "@nx-workspace/web-linkedin-home-ui-start-post": ["libs/web/linkedin/home/ui/start-post/src/index.ts"],
       "@nx-workspace/web-linkedin-shell-feature": ["libs/web/linkedin/shell/feature/src/index.ts"],
+      "@nx-workspace/web/linkedin/home/data-access": ["libs/web/linkedin/home/data-access/src/index.ts"],
       "@nx-workspace/web/linkedin/home/ui/advertising": ["libs/web/linkedin/home/ui/advertising/src/index.ts"],
       "@nx-workspace/web/linkedin/home/ui/all-posts": ["libs/web/linkedin/home/ui/all-posts/src/index.ts"],
       "@nx-workspace/web/linkedin/home/ui/header": ["libs/web/linkedin/home/ui/header/src/index.ts"],

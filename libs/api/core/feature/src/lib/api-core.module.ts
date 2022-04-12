@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { ApiFeedModule } from '@nx-workspace/api/feed/feature';
+import { FeedModule } from '@nx-workspace/api/feed/feature';
 
 @Module({
   imports: [
@@ -16,7 +16,7 @@ import { ApiFeedModule } from '@nx-workspace/api/feed/feature';
       autoLoadEntities: true,
       synchronize: true, // shouldn't be used in production - may lose data
     }),
-    ApiFeedModule,
+    FeedModule,
   ],
   controllers: [],
   providers: [],
