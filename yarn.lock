@@ -2340,6 +2340,13 @@
   dependencies:
     nx "13.10.1"
 
+"@nrwl/cli@13.10.2":
+  version "13.10.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-13.10.2.tgz#dea96a771fd1809b9fc6e5ecf64ada119d8cb60b"
+  integrity sha512-e9TK7CBaOb2jvnnuypPTox+l3vr1Lubjrq7rvyVrUDfSFsRe33Em1FTEdT7RCwjzF1ypvGkF0Fm2Cxi9/ljxVg==
+  dependencies:
+    nx "13.10.2"
+
 "@nrwl/cli@13.9.2":
   version "13.9.2"
   resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-13.9.2.tgz#a93f8b30c9610d02eda171a9453e9163dc641e88"
@@ -2710,6 +2717,13 @@
   integrity sha512-QYtMISnJPYyA9ADfBTXiEWvwzjgMICGIrM6sWc018dI2pQ8rWiTRRGOKq5YOsyHGhVd+MSEQYJlElGl3Y4gDIA==
   dependencies:
     nx "13.10.1"
+
+"@nrwl/tao@13.10.2":
+  version "13.10.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-13.10.2.tgz#76dad0d2fd4eae95b867014fe842a56529159ec4"
+  integrity sha512-Eq/u4tRRRtrMYBormdeTrRFj/rpcP5fsa3QrwcHjUSNnQDM/FZ9kt7fRgbnh+2QzdTJnU4QmaX6t4Kt+qYtsTQ==
+  dependencies:
+    nx "13.10.2"
 
 "@nrwl/tao@13.9.2":
   version "13.9.2"
@@ -9720,6 +9734,43 @@ nx@13.10.1:
   dependencies:
     "@nrwl/cli" "13.10.1"
     "@nrwl/tao" "13.10.1"
+    "@parcel/watcher" "2.0.4"
+    "@swc-node/register" "^1.4.2"
+    "@swc/core" "^1.2.152"
+    chalk "4.1.0"
+    chokidar "^3.5.1"
+    cli-cursor "3.1.0"
+    cli-spinners "2.6.1"
+    dotenv "~10.0.0"
+    enquirer "~2.3.6"
+    fast-glob "3.2.7"
+    figures "3.2.0"
+    flat "^5.0.2"
+    fs-extra "^9.1.0"
+    glob "7.1.4"
+    ignore "^5.0.4"
+    jsonc-parser "3.0.0"
+    minimatch "3.0.4"
+    npm-run-path "^4.0.1"
+    open "^8.4.0"
+    rxjs "^6.5.4"
+    rxjs-for-await "0.0.2"
+    semver "7.3.4"
+    tar-stream "~2.2.0"
+    tmp "~0.2.1"
+    tsconfig-paths "^3.9.0"
+    tslib "^2.3.0"
+    v8-compile-cache "2.3.0"
+    yargs "^17.4.0"
+    yargs-parser "21.0.1"
+
+nx@13.10.2:
+  version "13.10.2"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-13.10.2.tgz#4e0227233cb5c468ce99cfba53a8773439a12de4"
+  integrity sha512-6ac/7DO66asndgsMVC+YR5oa0jfEmmXjmE19gvIuAJtii00dSKd6o+n1G8lbl8RPZcz43wVY0zwV/eMpCSNFXw==
+  dependencies:
+    "@nrwl/cli" "13.10.2"
+    "@nrwl/tao" "13.10.2"
     "@parcel/watcher" "2.0.4"
     "@swc-node/register" "^1.4.2"
     "@swc/core" "^1.2.152"
