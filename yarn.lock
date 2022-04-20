@@ -1814,12 +1814,12 @@
   resolved "https://registry.yarnpkg.com/@hutson/parse-repository-url/-/parse-repository-url-3.0.2.tgz#98c23c950a3d9b6c8f0daed06da6c3af06981340"
   integrity sha512-H9XAx3hc0BQHY6l+IFSWHDySypcXsvsuLhgYLUGywmJ5pswRVQJUHpOsobnLYp2ZUaUlKiKDrgWWhosOwAEM8Q==
 
-"@ionic/angular@^6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-6.1.0.tgz#ffb69792df7f97878bb8809931d8555126393383"
-  integrity sha512-Kf/C/6wSM0xwYRWYNlc7bU4oYwPoq8ID7nMuysY0K8oyLycM8XokujqBqbJXCbbfWiyrbxrlKceMTJUuGj5Tfg==
+"@ionic/angular@^6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-6.1.2.tgz#08d115ca3c2485dd67f95b7497c5b2e8e741222d"
+  integrity sha512-7xqJKdSLtaHNpVGojpagZ9Y8uKlsQ20yr8fFcxIPK5ZyIJdvZiLSg+7MJ9Rd1GX2Vq5PppaM+r+vl77PHraJrg==
   dependencies:
-    "@ionic/core" "^6.1.0"
+    "@ionic/core" "^6.1.2"
     jsonc-parser "^3.0.0"
     tslib "^2.0.0"
 
@@ -1832,10 +1832,10 @@
     debug "^4.0.0"
     tslib "^2.0.1"
 
-"@ionic/core@^6.1.0":
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-6.1.0.tgz#2df9a80407cd6996df6686d50c6e48694296a335"
-  integrity sha512-Sx64Ue0oGSlBRcBSkIUNHbhz4k+33+VLjaIFGo4ko99yTpD+1B2/GAPwkb1DRHcoipRcPoyq37FakHjZsnolyg==
+"@ionic/core@^6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-6.1.2.tgz#fbf4073afacdb794a7d957a04bdc070b1d31f6d3"
+  integrity sha512-Y0oCNew0X+4BqdmUB+YEhKibdND8E0h12cUbA2irGTElnvthSp4Z7cNsoQO3+oPG/uzYm8SjAv/ifPbczbI3cw==
   dependencies:
     "@stencil/core" "^2.14.2"
     ionicons "^6.0.0"
