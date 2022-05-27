@@ -67,7 +67,7 @@
     "@nrwl/js": "13.10.2",
     "@nrwl/linter": "13.10.1",
     "@nrwl/nest": "^14.1.9",
-    "@nrwl/node": "13.10.2",
+    "@nrwl/node": "14.1.9",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "13.10.5",
     "@nxtend/capacitor": "^13.0.0",
