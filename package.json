@@ -71,7 +71,7 @@
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "13.10.5",
     "@nxtend/capacitor": "^13.0.0",
-    "@twittwer/compodoc": "^1.7.0",
+    "@twittwer/compodoc": "^1.8.0",
     "@types/jest": "27.4.1",
     "@types/node": "17.0.36",
     "@typescript-eslint/eslint-plugin": "~5.26.0",
