@@ -2499,7 +2499,7 @@
     semver "7.3.4"
     tslib "^2.3.0"
 
-"@nrwl/devkit@13.10.5", "@nrwl/devkit@^13.0.0", "@nrwl/devkit@^13.1.2":
+"@nrwl/devkit@13.10.5", "@nrwl/devkit@^13.0.0":
   version "13.10.5"
   resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-13.10.5.tgz#09ea17307bd2adb09ee12b418e83ee5a9ff9af2a"
   integrity sha512-HOClcx4gW9DxPKM0WnWgX1wJ4g2Tc5TbwgzoUx/6FyiTrnc3Muct/s9uCo1OfJgeCcpV4fATEwti57p2b3Gz8A==
@@ -2534,7 +2534,7 @@
     semver "7.3.4"
     tslib "^2.3.0"
 
-"@nrwl/devkit@14.1.9":
+"@nrwl/devkit@14.1.9", "@nrwl/devkit@^14.1.5":
   version "14.1.9"
   resolved "https://registry.yarnpkg.com/@nrwl/devkit/-/devkit-14.1.9.tgz#54c808e19bb95d56c7ccb0c44ba1bc710d979d2b"
   integrity sha512-y+gqtluiOZ/wiAXb5Z4FfzroyB/+cLP5zHXQTNuuuVC9U25RiuGK8RL+Wg91VWzHCu7E+oMtCToNw7MWDRGFDg==
@@ -3376,12 +3376,12 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@twittwer/compodoc@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@twittwer/compodoc/-/compodoc-1.7.0.tgz#53f1862a6d283e448233b672b395890d22c40121"
-  integrity sha512-AsGK4oWBPtUhTj8PpEDHYgPRGHnePu8CobvwPR0Y57ud7ojPJz8x55O3bcVbpPu8/g7/4lLlg1trQJim9ZhiAw==
+"@twittwer/compodoc@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@twittwer/compodoc/-/compodoc-1.8.0.tgz#0a96c2afea2d6743ba8441e6892da0dbc7f16857"
+  integrity sha512-r5zdAdwyImihc/3EpmZdzTNLin2f1l8HIq4T+9tXhOOUaHz758zG339/++FlO8HZ/oUk/tOQUI2s5erPiMAS3g==
   dependencies:
-    "@nrwl/devkit" "^13.1.2"
+    "@nrwl/devkit" "^14.1.5"
     tslib "^2.3.1"
 
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.14":
