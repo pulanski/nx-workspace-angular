@@ -29,7 +29,7 @@
     "@nestjs/common": "^8.4.6",
     "@nestjs/config": "^2.0.1",
     "@nestjs/core": "^8.4.4",
-    "@nestjs/platform-express": "^8.4.4",
+    "@nestjs/platform-express": "^8.4.6",
     "@nestjs/typeorm": "^8.0.4",
     "@nxtend/capacitor": "13.0.0",
     "@nxtend/ionic-angular": "13.1.0",
