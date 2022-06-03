@@ -56,7 +56,7 @@
     "@commitlint/config-angular": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.2",
     "@compodoc/compodoc": "^1.1.15",
-    "@jscutlery/semver": "^2.21.6",
+    "@jscutlery/semver": "^2.23.3",
     "@nestjs/schematics": "^8.0.11",
     "@nestjs/testing": "^8.4.4",
     "@nrwl/angular": "^13.10.5",
