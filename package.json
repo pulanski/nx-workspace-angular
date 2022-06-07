@@ -50,7 +50,7 @@
     "@angular/compiler-cli": "~13.3.2",
     "@angular/language-service": "~13.3.3",
     "@capacitor/android": "^3.5.1",
-    "@capacitor/cli": "^3.2.5",
+    "@capacitor/cli": "^3.5.1",
     "@capacitor/ios": "^3.2.5",
     "@commitlint/cli": "^17.0.1",
     "@commitlint/config-angular": "^17.0.0",
