@@ -3340,37 +3340,6 @@
     "@nrwl/linter" "14.3.6"
     "@nrwl/node" "14.3.6"
 
-"@nrwl/node@14.3.1":
-  version "14.3.1"
-  resolved "https://registry.yarnpkg.com/@nrwl/node/-/node-14.3.1.tgz#546e34a10d3f15bbeda4f85c453c1a0f1eab802b"
-  integrity sha512-PjUNt0KmfM5RBPqdc490ZJHyvseHzxboKl4VApz4It4VKupbEIVb4Jk9hb5QOG4DNMyb1tqFNNVl5vd4G120mw==
-  dependencies:
-    "@nrwl/devkit" "14.3.1"
-    "@nrwl/jest" "14.3.1"
-    "@nrwl/js" "14.3.1"
-    "@nrwl/linter" "14.3.1"
-    "@nrwl/workspace" "14.3.1"
-    chalk "4.1.0"
-    copy-webpack-plugin "^9.0.1"
-    enhanced-resolve "^5.8.3"
-    fork-ts-checker-webpack-plugin "6.2.10"
-    fs-extra "^10.1.0"
-    glob "7.1.4"
-    license-webpack-plugin "^4.0.2"
-    rxjs "^6.5.4"
-    rxjs-for-await "0.0.2"
-    source-map-support "0.5.19"
-    terser-webpack-plugin "^5.3.0"
-    tree-kill "1.2.2"
-    ts-loader "^9.2.6"
-    ts-node "~10.8.0"
-    tsconfig-paths "^3.9.0"
-    tsconfig-paths-webpack-plugin "3.5.2"
-    tslib "^2.3.0"
-    webpack "^5.58.1"
-    webpack-merge "^5.8.0"
-    webpack-node-externals "^3.0.0"
-
 "@nrwl/node@14.3.6":
   version "14.3.6"
   resolved "https://registry.yarnpkg.com/@nrwl/node/-/node-14.3.6.tgz#3eaa368bfb671e00b24f46f19e37829194c8b143"
