@@ -69,7 +69,7 @@
     "@nrwl/nest": "^14.3.6",
     "@nrwl/node": "14.3.6",
     "@nrwl/nx-cloud": "latest",
-    "@nrwl/workspace": "13.10.5",
+    "@nrwl/workspace": "13.10.6",
     "@nxtend/capacitor": "^13.0.0",
     "@twittwer/compodoc": "^1.8.0",
     "@types/jest": "27.4.1",
