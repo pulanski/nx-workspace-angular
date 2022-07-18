@@ -74,7 +74,7 @@
     "@twittwer/compodoc": "^1.8.0",
     "@types/jest": "27.4.1",
     "@types/node": "18.0.0",
-    "@typescript-eslint/eslint-plugin": "~5.29.0",
+    "@typescript-eslint/eslint-plugin": "~5.30.7",
     "@typescript-eslint/parser": "~5.10.0",
     "autoprefixer": "^10.4.0",
     "cypress": "^10.2.0",
